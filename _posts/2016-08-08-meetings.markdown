@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Meetings"
+date:   2016-08-08
+categories:
+- management
+---
+
+## Efficient meetings
+Making efficient meetings is harder than I thought it would be. It's very easy to get lost in meandering conversations &amp; jokes that are dragged out way too far. I, too, still have a lot to learn about this. It's a shame considering that gathering people alone is already a difficult task to do. Some people might turn up late and even when they do, there's no guarantee that everyone stays as focused as they should be.
+
+I stumbled upon this Inc. article titled [2 Tricks Mark Zuckerberg Uses to Make Meetings Much More Efficient][tricks]. In summary:
+
+### Ask people to send materials in advance so we can use the time for discussion
+Oftentimes there is so much time spent (or wasted) in trying to get everyone on the same page. Not everyone processes the same thing at the same rate. It's ironic that half of a "meeting" consists of everyone *thinking* in their head. The thinking part should be done prior.
+
+By having materials sent in advance, everyone comes to the meeting bringing something to the table.
+
+My favorite approach is actually Jeff Bezos's six-page narratives. I've found it helpful to explore my ideas through writing and have written several narratives for my ideas/thoughts myself, although without the structure described [here][narratives]. I haven't really used the strategy for meetings, but I can imagine it making a larger room for interesting discussions that otherwise wouldn't have happened with a traditional approach.
+
+### Be clear about our goal when we sit down for a meeting--are we in the room to make a decision or to have a discussion?
+Meetings without a clear objective of what we want to achieve is like traveling without a destination. It's fun and there may be some interesting things we stumble upon on the way: ideas, innovations, creativity. But not *every* day is the right time to have an adventure. Of course such meetings aren't wrong; brainstorming sessions where we don't really have a decision to make are very important. They too are my favorites. But for efficiency's sake, having a clear goal **and** establishing it in the beginning of the meeting--whatever the goal is--is definitely a must-do.
+
+[tricks]: http://www.inc.com/jessica-stillman/2-tricks-mark-zuckerberg-uses-to-make-meetings-much-more-efficient.html
+[narratives]: https://www.quora.com/How-are-the-six-page-narratives-structured-in-Jeff-Bezos-S-Team-meetings
