@@ -2,8 +2,8 @@
 layout: post
 title:  "The Hard Way"
 date:   2016-08-24
-categories:
-- personal
+tag: personal
+blog: true
 ---
 
 *It's inching closer towards the end*.

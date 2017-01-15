@@ -2,9 +2,10 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
 
-Hi, I'm Galuh. This is my blog &amp; portfolio. Here I write about my exploration on data, development, & everything else that tickles my fancy. My blog is mainly for learning purposes&ndash;I learn better when I write down the things I'm learning, hence the existence of this blog.
+<h1>About</h1>
+
+Hi, I'm Galuh. This is my blog &amp; portfolio. Here I write about my exploration on data, development, &amp; everything else that tickles my fancy. My blog is mainly for learning purposes&ndash;I learn better when I write down the things I'm learning, hence the existence of this blog.
 
 <h2>Me</h2>
 I'm a computer science student in Universitas Indonesia. My interests also include product development, product design, and learning languages (currently <s>struggling with</s> learning French).

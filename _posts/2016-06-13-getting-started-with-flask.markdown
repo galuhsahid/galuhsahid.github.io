@@ -2,7 +2,8 @@
 layout: post
 title:  "Getting Started with Flask"
 date:   2016-06-13 19:12:17 +0700
-categories: python
+tag: python
+blog: true
 ---
 At this moment we're currently opening registrations for CompFest 8's [Competition][competition] and [Academy][academy]. I thought it would be nice to have a glimpse of how we're doing right now. We have a dashboard listing all applicants, but we didn't have enough time to build a fancy dashboard showing graphs--and boy do I love graphs. Plenty of meetings and discussions later, it is clear that numbers are important. However, sometimes speaking with numbers is not enough. Graphs do really put things into perspective. So, I thought I'd make a quick Python script (because seaborn, duh).
 

@@ -2,11 +2,10 @@
 layout: post
 title:  "Meetings"
 date:   2016-08-08
-categories:
-- management
+tag: management
+blog: true
 ---
 
-## Efficient meetings
 Making efficient meetings is harder than I thought it would be. It's very easy to get lost in meandering conversations &amp; jokes that are dragged out way too far. I, too, still have a lot to learn about this. It's a shame considering that gathering people alone is already a difficult task to do. Some people might turn up late and even when they do, there's no guarantee that everyone stays as focused as they should be.
 
 I stumbled upon this Inc. article titled [2 Tricks Mark Zuckerberg Uses to Make Meetings Much More Efficient][tricks]. In summary:

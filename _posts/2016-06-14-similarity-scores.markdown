@@ -2,8 +2,8 @@
 layout: post
 title:  "Similarity Scores"
 date:   2016-06-14 19:12:17 +0700
-categories: 
-- machine learning
+tag: machine learning
+blog: true
 ---
 
 I'm reading the book [Programming Collective Intelligence][ci] to get started with machine learning and one of the first topics that the book talked about is **similarity scores**. The book only explained two systems: Euclidean distance and Pearson correlation. Both of them are systems that I've learned in class, so I set out to find other systems on my own. 

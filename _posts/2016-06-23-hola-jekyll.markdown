@@ -2,8 +2,8 @@
 layout: post
 title:  "Hola Jekyll"
 date:   2016-06-23
-categories: 
-- meta
+tag: meta
+blog: true
 ---
 
 As you can probably see, I'm moving my website to [Jekyll][jekyll]. [WordPress][wp] has been good--it's just that's it's a little bit too overkill for a humble site like mine.

@@ -2,8 +2,8 @@
 layout: post
 title:  "Tanimoto Score"
 date:   2016-06-18
-categories: 
-- machine learning
+tag: machine learning
+blog: true
 ---
 
 Today I stumbled upon the term **Tanimoto score**. It's quite surprising that the search turned up only [2680 results][res] so I had to do more digging than the usual. The search led me to the terms Tanimoto similarity and distance, which reminded me of the [Jaccard similarity and distance][jaccard].

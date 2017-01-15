@@ -3,12 +3,12 @@ name: Galuh Sahid
 bio: Computer Science undergrad; passionate in data, tech &amp; design &ndash; not necessarily in that order.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: On data, tech, &amp; design
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: false
+picture: /assets/images/profile.jpg
 
 url: https://galuhsahid.github.io
 # your url: http://USERNAME.github.io
@@ -50,20 +50,20 @@ authors:
         name: Galuh Sahid
         bio: Computer Science undergrad; passionate in data, tech &amp; design &ndash; not necessarily in that order.
         external-image: false
-        picture: 
+        picture: /assets/images/profile.jpg
         twitter: galuhsahid
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+paginate: 5
+paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: true

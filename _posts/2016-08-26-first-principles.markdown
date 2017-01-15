@@ -2,8 +2,8 @@
 layout: post
 title:  "First Principles"
 date:   2016-08-26
-categories:
-- thinking
+tag: thinking
+blog: true
 ---
 
 In retrospect, there's nothing special about thinking from the first principles. Thinking from the first principles only requires thinking. That's it. Even when I told my mom about it, she stared at me blankly and said, "isn't that what humans are supposed to do?" I pondered and realized that, yes, actually, it's what humans are *supposed* to do. The human brains are capable of doing it; in fact, I think the human brains are just *perfect* for that. But the reality is that we don't; if we do, it would have been called simply as "thinking" instead of "thinking from the first principles".
