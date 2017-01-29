@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "On Vision"
+date:   2016-04-24
+tag: StepITUp
+blog: true
+---
+
+Before [things started for real][compfest], I had troubles making sense of why a vision is necessary. It might sound like a no-brainer — most companies have a fancy “vision” section on their websites, anyway — but I won’t lie that there was a part of me questioning: why is it such a big deal? How is a vision supposed to look like anyway? As naive as it sounds, I was thinking something along “well, as long as things are going well, then everything is going to be fine, right?”
+
+For the first few weeks, things did go well, as in there weren’t any problems. Things were running just fine. We were doing the things that were in our “job description”. We were doing the things that have been done every year before. They were enough.
+But that was until I realize that fine is not exactly what we want, and not what we should aim for. After all, no innovative companies or products come out from a dream that goes as far as just “fine”. If Google were okay with being fine, they’d stick to their search engine and nothing else. “Fine” is that tourist trap that everyone flocks to that being there no longer feels special anymore. Nowadays, no one cares if you’re doing just fine. Anyone can do “fine”.
+
+Going past that “fine” mark is like going to an unfamiliar territory you know nothing about. Of course it’s scary — we humans crave familiarity and certainty.
+
+So why is it natural for us to get satisfied with being just fine, where we can actually go beyond fine and earn much more? For me, it was the following reasons: first, the unfamiliar territory is of course much farther, which means it’s going to require more efforts than expected in the first place. Second, it’s unknown, which means we should expect going there very prepared and still end up beaten anyway. The idea of experiencing disappointments is something that I’m sure no one was keen of.
+This territory is the reason why people say, “but that’s impossible”. But it’s also the very same territory that drives people to innovate and create things that eventually are shaping the way we live now.
+
+<hr />
+
+By the next few weeks, things were going well and we’ve got the best people to work with in terms of number and quality. But that’s that. It really gets me itchy to see we were aiming for fine when we knew, deep down, that we are capable of executing something beyond fine.
+This even became more palpable when things were up and running at full speed, faster than how my calculation had been in the first place. We’d done a pretty great job at making sure things are running okay: meetings, conversations, notes. I’d feel accomplished when I checked things off my list or manage to put cards on my Trello from “To-do” to “Done”, without even thinking about things beyond “getting stuff done”. Something more abstract, such as “are we going the right way? Are we getting closer to our destination, or are we on the wrong path? Do we know where our destination is? What is our vision again?”
+
+
+<hr />
+
+I spent some time mentally beating myself up for not realizing this earlier. How could you, I said to myself. You should have realized this sooner. And then I calmed down, and I realized that perhaps there are things that you would never know until you experience it yourself. This is one of those things.
+
+The good news is, it’s not too late. There’s still time.
+
+Immediately, I brought this discussion to my team. We reminded ourselves about how many people we have, how good they are, and how much time we have left. We restated our vision, something that we’ve had since the beginning but we lost along the way. We concluded that we got too enveloped in running things that we ended up satisfied with “fine”. We got lost, but we found our way back.
+This discussion happened a few months ago. Did it change anything?
+
+It did. Something that I’m very aware of is that we’re now getting more comfortable to do express fresh ideas and do things that have never been done before. We have a very clear idea of what we want. We have a vision. Since we have agreed on our vision, it means we have a clear understanding on how it’s going to be like to get there. Our vision is a big one, so it only makes sense that the way to get there isn’t going to be an easy one. And the question “how are we going to get there?” itself doesn’t deserve regular answers. The answers require much thoughts, analysis, and efforts.
+
+And most importantly:
+
+> We’re free to experiment, because we know that anytime we find ourselves astray, we’d always find our way back.
+
+*Originally posted [here][medium].*
+
+[compfest]: http://compfest.web.id
+[medium]: https://medium.com/tales-of-stepitup/on-vision-fe38c18aab54#.2li51psrg
