@@ -1,0 +1,32 @@
+{% include head-dark.html %}
+
+<section class="posts">
+  <div class="section-container">
+    <div class="column column--main">
+      {% for category in site.tags %}
+        
+          {% capture category_name %}{{ category | first }}{% endcapture %}
+          {% unless category_name == "photography"%}
+            <div id="#{{ category_name | slugize }}"></div>
+            <h3 class="category-head">&mdash; {{ category_name }}</h3>
+            <a name="{{ category_name | slugize }}"></a>
+          {% endunless %}
+
+            {% for post in site.tags[category_name] %}
+              {% unless post.tags contains 'photography' %}
+              
+                  <dt class="post-summary">
+                    <span class="fade"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %d %y" }} </time></span>
+                  </dt>
+                  <dd class="post-description">
+                    <h2 class="post-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+                  </dd>
+
+                  {% endunless %}
+            {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section> 
+
+{% include footer.html %}

@@ -1,0 +1,163 @@
+---
+layout: post
+title: Singapore (Alternative Version, Kinda)
+description: "TL;DR: where to go that doesn't involve Universal Studios and the Marina Bay area."
+category: articles
+tags: [travel]
+image:
+  feature: "https://lh3.googleusercontent.com/RKTDWbUG08YYkBgvD4Iiyrdm963RY4nqzHgegaydVSXd_vAjDQVg9_dAbOrW-MLSikz7GHq_FWB1-kdt2ytqeWmK6gmUBkHsIwiS87dmkczpcLy-02vscsmNLA8uFaJZk_Ln5JKzztIvbsZBO1T_YMTxQw4MNMiIH2uSuVMXM-8rQ4ZTlJVtwpu_D91sK1_By0mgzTWyLIyAOzhfS49fIf06Hnkaw9BF89eP8yFECZveijxjzPViW6XIjrefJTdLtg8LNNL38-DWBRnxaoom46fjzsUds4rq81IL6n4VerM_Q35r-qjEoXqQTD6bTKqZCMHEQUcFeJOeFUVAoSaxS8G9_ojoik_5mfGUyevqg7dtqtm17Lp8lrysYCVUG2SfdKpw6Be6FlYJxWuJeSHUwi8NUfU3nXwLc5gV9rQXXmPFJWUbTuvfFEOzeOFyiu7kLZqPZKnuhu8lxi-LBZpKrVzX4vMiWCIGh-aXDiI9eXjHR3ARQZoJzjX0FRqUM1VFxpgXCNiO_DVuJ5ZoCpYR_PEyosmL6zAcL8kweNyfl51BQJ68BT6xVrdH3GlP6jr2VUa9z_EahN2vd6_ypHFDJuxjhcGRjKP-WSRUynRQfiF5fFrPMru0=w1200-h806-no"
+---
+
+A few people have asked me about where to go in Singapore that doesn't involve Universal Studios and the Marina Bay area. I'm by no means a local, so the list below is merely a list of places I visited during my latest two-day visit. I might be missing out on a lot of good places since my friend &amp; I were short on time (&amp; money), so asking a more knowledgeable person (or better yet, a local) or doing more browsing is a wise idea. 😀
+
+## Chinatown
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/_7muOSIqyng7fkdtXwM87ZuzWyT5kn1dNK4YCcJbDrW045qzSa_1IsJdlkHmJ_qTWkDz3EGabOgt6kzDGDj26RqqL-95xd-zlCgsPHOIHaRiKbK22VawFEjit6WXvAw3PXvXXpuhpIOpF2m_BVif0mpeP-ppLtq3gLLxoQYpiR55VxSJV3rf2PLQFza6qZDq2W2utd7fq1Wy5fHctGifE_UnZwTwipqF0mBJMw0ilebiGv7Q7ma6FQ5_cnvXEJjHvRmSaM-YthEt8deDlgEV3dNK-emVGl7n_pbFkGXVaU6MQzHq1BvP3IjsbNtGivdHihTAJWpXG-wtFBV-1vf234JOTTm7uFDE-8_Jr_9Cama0zs_rV-8PKMM_oFM7LPzuJlx3gcNJ9XKGi_x91jauyI7dpXHZdz1c1--Y8xvJmBKUnharHKA7BK7MVQsLYPooxUbW6bkCGe8eM3pN-uaDoiwYvu8ngYX8wiOIYMDMUhPaBgurMDhobVDP38_TeqFvX3GYDgx_aAe7Fr-Zm5U-oibcymYCZ0-sQSMIieWv7kjctmnR1C6Goui21IiglzOe4e7Aq1XSgvcwM4Qmna0Az4P8gjocHHlOL4WSuZZvbzY0YImhdbXy=w477-h635-no">
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/QFawuDkqDuy2GpV_RyXU3pjXxAAT-3KamDiutwMhMSoVRFAc8I1Dp_Ifdin93LQZcP0h08BY0SNnuPINJfgb5j5iPALGBWL8JU_1FG6qvN671YR8gxe6BCAXIbN9MlD3I3S2AKM6nT2QlYPvscdHq-yft1ImtEmXURN0xGP8WiueIVfQVLT-Qyvfv-54-HdM27VF4XA8gdKmUAki7vP-irxBwUpnFbmr-dzEaYa1Yz7ayz3RgPhUgOVCt4bJfKdSEDvL5LwqkTTfWZnfmYPegEPBN8JiMPt6XQm8kELBanhPb0eFbvTnI54fWIQbjvuHuV95zxymwtC--fnfqt1NX7zxg_ZRbgqX3OiicTpPrpYkxO6jrDY1g4-Vv-iY2udmfp0RAPuCnwKtDADkedYeiefrBd3ygh1rlz_bLhT18ewwul5KjpyKpoP4g0DwzvYhY32Q_9JHmCYgGSdbaEiyfBe_oF8bjeeZA77mm3aOMvWcZxq-sYt6ReFmq63JPXRZbzEP8Xehb5LXj71VuaWVnBFtb9IW9lIhbcPrtfZctqqX0VUD9-dSKZ9fULQ2HrZvmtcWHMd8p9lQqrNd4uePF8zLBl5XGfb2j1z2psoenwICkgH-IsOD=w477-h635-no">
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/ADPCtqzvZsy3m0nOLhmfdUKa3GE0AKJ3UqGdYKFgxubK9hiQL3R5Y-7Lm-0Vjek0EQFWCXV-M_ylYsOlGFblIERJSMF6eV6BCa1_zcQIEAYT-IJYX69ciGGzVY-0mTrW41SBXvR1dXpf44MHx6_vzDpwy9Ypy5Xy44mk8GPev3sDb0paa9HD1yeIfHknagkx6jqggUQuUlI-asNtZqA8zjZfQ6W4i1FPfr6qxqDGZijtghtCisZmugQtBtttiB87OL_J2bUFFkg_UfJDXI2LUADvGdPc6Nw_ekgbZ0svnDC_Aw5PIXiu-nxKX9xYp0xw9QTo6OA4jSYmvQZ0GzvxSP74Vsa01LUxi6klzAk5dzUCs-N0Oh6LfMZEqdn99Aa8fEMfOpNhzwjWBCcv6WCxeyY_5TVVsbaGhEJ8yg6qHPSyuhhPa_hWJ8WhcZLp4j30-iqfA0ECqSXc23SqKf5yDHjoN_3zYmVjabE1H5Ay0R3HchPIC4IFGzcmXzKTB7-f84V-77j91A8M6IR4exNIzLBA3HB2Ox4nR6AO4WkOYkRDmgCwvSvbgmzu227e-OWD9M3LNAGDtaAU6nSzRkyAUZGD4ugvzxcL_H2TOTkZA60T4CwSRyYI=w477-h635-no">
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/dL2TbiKXQjp8fJXkJDrHrmSuEHfydIFkpEH7dZrRzVuHogcOOKRf-kfWpxSYx_kkcp6fIVUslDYtrXKldlDw4nWvp2L8J-mm3CaSEwzleX64WbarTz2KPZdwBU4X_9FaNogQRLJS4t8Hte9r2cP9_oyV_J0gtm1XvL3zxi4aLb4z-hsaMiU9FK3KCO9fI2QHG1qlNdtVCHIpOp_KLCkNnTIuEoTec1EyG90yeH4h1yNVv4wkXba4x4WgJaWzJrXK_xdjB6YfpN3Ru4ANu6JZXUfLyqL-q9sNUjYz6BE654LJeARs4U_htwDkI1ilCeCAqfsbkfl40F0Pj7noYmSYoeux0PFe0mlGIOHxzsvoC_Fi6K0-fy_8BDFOVHaHefk7ftmJY9TcZbdIAsu5OUS3jJ4Q_4TKmy2Mw0ATaiNkoM1c7FLe2DYi53Ql8UscSGdFcxtQnmbDJ6dUzWbyr5GMKQhuJJCox4wza7tXq_sImF-ELa_8Ngy7CJ_UBdtLzd41K58QRiCxB85slqdFg8C_ZEvVXgyaW9BaA948Wv3WxmIB8UHuKAOcsHvbehjZyCOuQ-2O1R_RzcBcNHhAwHujGR6f4SRmw4XQLiQTpHviLyU56JpIVICw=w477-h635-no">
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/Ah0NvzaU6mMtq5JWY85RzIvd61PV22faS9gozaHvDlp_zrkevpKHKaa_oPV34hwabGfZj_lj7NgM234kKxtvW5D_260VnGTZud2u3v3BTkM_9Bni3KruWh4YIM_-YQekvaIrpGVnvsWFyIkUeo8SfggEmmBnBt9F5xwtFx95Ab3oZT3BxD7mmZyE4VFOq2TCfM8sPKnu-2JYSaMcuWJT5IIiNL2RmFFplOaUBh84JbDvv0OdJplp3nFyu1bcaMCYNcTtaPLdlseJ14Ghb3CD8ADDr3wKlrBVoUEq0UoNcbdRCF4Ua_EkZG1nZcA513yZtwo7wqMr9eYI8OLuTi7_gVpb1_XZBWhldNrAnzQeTjLmPgaNT5ee0Wg2rU8KxLlYDzGrnTl3jeqPxXkqsVYQ2vaaKKWHMa0L3787M5BbmAhWifVkDO-8g_6RDumScIP2J-Y4l2gtj04s9dE2GUlIsnjRRdtk90F0_TboJVJzSvfmmAVYfbS0R_NiG9FmKC39s4Sce2wWeb3UousTdBbQSW54LoJx-8c7VH7x1GYKy_6Z8YCBZhYPrbTRehEVLo6EcEHar0iOds8RwpeFUpyWDgfEj9evdokN99xNajjZFvGRYHQbOl43=w477-h635-no">
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/76B1HGfnxXKNyE25mUcYDboFtIVptq2u8YcOxVIpCIX8RoV0n7y3HN3jQGIPA5JMuFRLYS7I9pGyRhYuBcGqXMiwE2_Sa5fERUireYbT7xB5y-dvzEQZPBod5zZCoN6l7aUE-BxbYy185HdH3-2mqyVsqS8MofWDmOxuY_hi2_TVLsVDoic7t27v1yg7CCaIM4actQVVj5syG0GBUz0PFyqEzlnEhA-TVhKCx3QbciRBIBllmgjUiBr7P8nW53PmmsNGYNUcyGflQzCCggSSU0EF4Va-IAuMNUykrZx8drdBxgM5wRuGnJuEwIRmeDxSu03uH3N97Qbf-VlkkHzeJWg2mQ15SghTtA76Up-B1N5GnDJGwya6iYgVL81j4iamcyXg3hLTMkavVVCAu6MYH1ohjJpytuziCSMRSEh7yhIrLYUvq3CAKX2waaonlp62Hevrwe-bJw5FEBdcQwp_gnR9-FoBuPBctt9tgW0BlhcWQVmeVquBryD2mB0mQD5eFleaY76aDbQu_po1AWVUqylfhgkTJgDe49QVpYihFqOIkcGszMC-qSQqZNk6xpaQOisd9rTENLNDP-0mskxX7zl32N4TWbf-RNLQ-EaD1ytmo4xRZZwV=w509-h635-no">
+	<figcaption>Some quick snaps from the streets.</figcaption>
+</figure>
+
+
+I usually stay in the Orchard area, so staying *outside* the Orchard area is quite new to me. Reading people's posts, I think staying in Chinatown isn't exactly an alternative thing either--in fact, it's probably an even more popular choice than staying in Orchard... but yeah either way, we were staying at the CapsulePod Hotel, which was quite a steal because it really is just accross the Chinatown MRT station. Plus, they have free drinks &amp; a nice terrace to hang out at.
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/sdDU88orNkVCuoVz2rZ8rAUKN6X9iLMUKkeSgfJeWShgUvALxZMbEbsPtEyI6QnRlIujzyxRPP-FPXz7c7q3dyqKuzbMEZgmdlGmHPKKOYTsfwPzu54lt-1SMkvKUvr9BkS0xyxOU0W479X-cJRgX3ESIerwqY96FzQ5oLAm1e9cl0UJRYM-bRNZ8DUsxj_vS_4ixyrnyBZBqB-l9YgINLySgmHC9y-qRdSxskTyz9CcbnphOrP1Xh2_poacg8zzHmg5ZgB_7wQOwk9W-HLlfc9O5rqn0XV2qJcY-Me0cEbFH35JJqK5yR7loIWgPlU45EKuuvF7FPkW8U-Wbdm3MaSS1ZeUAcSyN--LVkJiAIminxK6uPvz34-cBAjePRcZjRgXxYd6P3WCwHgfpaJ4sSnMM1lhZX6Gt38gcih-VrOorzTFw5LpsuLiD8eCAZnDWuIJ6-pZ__30W3I61S2ucbbH_yy3497JcBq9JiDWtB-DeL9t9ExmPEVrKh4Rs_Cb0LeOIChanBNcXGSEhnn4GBu-7rs6gW8GTRpYPQ3GN-gRAYqB_Q9UM3jVuRkyq0Ya5U8G-vwsw6BkAIgbTF26_0zG0Aa8Kec5xSpaJbQ4rDLPeA5JaHP7=w477-h635-no">
+	<figcaption>Quietly tucked in my little capsule with my new book.</figcaption>
+</figure>
+
+## Nanyang Old Coffee
+I've said this countless times, but here's my favorite travel tip of all time: eat where the locals eat. This started out when I was in Paris a few years ago and I couldn't really afford expensive breakfasts... the prices seemed extraorbitant! So off we went to where the locals eat: at the Paris RER station, which turned out to be Paul, which turns out to be ridiculously expensive in Jakarta. 
+
+I've been clinging to said travel tip ever since, so we had our lunch at one of the lowkey food courts in a mall in Tiong Bahru like a regular citizen. But the most special was a breakfast at Nanyang Old Coffee in Chinatown. It was one of the very few places that was open from 7am, so a lot of locals stopped by too before they went to work or school. I had a *nasi lemak* &amp; a cup of coffee, which were enough to last me for a day. Hashtag cheapskate. 😀
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/z47mRJrwlHUmJ751HzO4YuK3ava4b-PtU-xkEfa8_luKwGrpln2IxGSbyExexv0KPy7MJQxEB6vzaMQVpJnG9uZnm_pSWektooGTG6jQCFtAy1Sbs0jiyesWvNWIhE7BpcDfd7fLw4RDyQtu67tm6G9oXfIXJwbw4EF8XAG7oPPznztLr4Q-cOyvHkSTSUBJp5l6GYyhKEBtRhw4hoPCnM8NDYDVBeYDWAux17zV1yzLRctSy-lHt_1FKl-V9vvn4uU4PniIl7pE0qtJsnLP5IeN1v2DC3Nu3JClTHIdl8Ema-d3vh9BELWOhLJNlttk41YYJ75NEfMxc5rnbyBiLLXPhRUwiGd4qZogwfU_JV7RvhBdEKAacyhX9xzmKpFOp_W5Vzg5Skc2kXlvhUaZm8OfdMP30_h_gOCoc1TXHBFxTsIWnI-keTWHXMI7atY_dCTF15nPtXLwLekPG14yOFPkC5EJBGmCQA-SOe5-X2L6Y-vdzcAo4Lyc3SC13EzYsCdyHrgt7NMMnEv6ZqnPhfCRtTCeKB1PaQ9HhHHMRX_2IBWOJWuRkVqoXpuMw5Ic9QEGDGK4d6Rp0EDugCYCdnF2jtNkfAJwfo15cSxK9kLMVCXAGSIW=w477-h635-no">
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/BbnIB7SYtnalU510nZReAVguRNLE_KWFOku7a-Aaa-lCS33u7g2Z5p6lL-Bja3p25Rq3wsVCLhWq8dNix2Qb1-W9-Z8LFaydeLQADqZroY6hXfyUApoCZ5oKKX3Ol3fjyfNxJ58-xF3ewUcDukMV0hZpvFo1fZhh4rTQT63s-U_NGzzIWcBMaLUjXIL44c1K3p-vy0H8GUP1xP0NYSR5LHlr2O6ME3mS80IOdKgBb01sN2XVCEIa1Hq4Rb-0Xh1GZvW0pRU8eUHIDuMVfNu4q5XMKafTWptyOfAgPIhuWaVyGysio4VW8SYF49007-xsbl4oB4mTsMrvUTq_9GmY8BUmEYdwCCWtuq3C_vJreMddFvufbtmCm86wNyFbB_LUeMegcOMoQA6HTMLpPfSsVQiGB95LdjdgcNBYjU5QbB97gyzfroRqBsO5ulSR2yVQ7EEKjJXNkz8_yjHYAMT_CCChcaQfJosVtfxOB1ksKL89KNB9d1PjrXVUvnprAbjTk_fAL-lZZybciYBSU8YTyjGeRdwNPx4B8VJDKvdN4D-zEatJRBpr3v7FiXIAq_J1VGY_EIPt_pCcvbo1NJVOarBxExEbb6xhBHDJj-qgKUyV5iJ8Irwq=w477-h635-no">
+	<figcaption>Chinatown Food Street.</figcaption>
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/4Xzy9kRH7OiCf-D1S6wiRCmmF4eVE0K-oWVCkdl2m8fxEN2jgY6RFR7EZnOn-coe7kJhejlSQdr8aq1JCXLPrMD8DZswELD843zPLlPtUFnBzF_c5tofvDPQcWFc7Mq116xXUbkKc7O-syQob1gyHP_pwzDzIKXZuPPXr7UppFKFtiX_whArUw6fuXTi_lmenQCWFVK09j9T3doHpxtWpW6iWXxk61bUWY4soJewCTdy3r8PHi1WJSKj_3KAQZejgCu4WsUwas7QshzJ0jyc3K7-SeCQErtrCaEtUg9C1wJZiOBLB2v2KKVj7tq0wj37cEvqBSuWzWnox4ctH6_IYG0v4Vwjlu5UuP4EYWyhi34VHPnSI7KDrUyv6E4yBHVNeJMeoEUXmvALCeuE1yZZ8zgvp33f0_Gfc3oKYdvRai5DE-KNOPvR-NFB--CX5dBqWAvGV2a4jK9YmTOlXCC8v0VV2IUzb7bHIeJxCgEOkKwrOlPPWqHC1XyP7_KC-MUDJCLR6i-JYuWAv84GSmQbWp6wpUVfIwI2ilfBYycjyUblH1I2XRBd0lcHCyNHdwEWcxiv2HhrqP92aJQUUZMCL54eCVGF3tNj51XQ48tlVvczF53Pc6It=w477-h635-no">
+	<figcaption>This humble breakfast made me really happy. 😀</figcaption>
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/0sWO1XlbLrrwcA3AffO3x-rZd8J02fHr9ErjPr1KSZsTe5D3R6YM-ackRcC8mMS6c6GvvzCU3-fckKZTppcKlrfBZA0dHg4frWaLZSggt-ETJyS0DuBL3lAMjIUfS0MTcvQyOhxKC1uXtl-kBCpLs_bK68xnyFe3cLXdSOu7jK121fGhlkE5ZXy0nwJxSo9bZFoTQmE33Dot0nqL-qkxZ9O0oLFzB2aY4VogyOWlzUcD0b0iHKaEohBYFvE2P2Vng2iciv1IbkD2DdmaSEmtkLJWXTheFPYAgoI-eqXmvNO-BxCzI2-dzwZxE9Fh4SUKjyOGwCG8i6uKZjJGRhzQPOldMmnfuk3_O6Xi9CiqMlitcMbbvRnhBYqatESjsVxIvESPKONeiGdGIkYl7xDWtsPVublyOZjvZ_Ddh1WgF24Ncc8KIZcRfuQlrB_YmJ-y6kqJATPBIGomdccESGOhb2vtrc4ywDTeRoTEc95beRt-vZ21SbOcCYZDlDeL_T3XYCgIoVdXfqpyjEAwW7WDJw4SCTdZ4cKbSjtFptNEUX2_s3vp6Ro6qp2msBx0qb8gi7eQli1Ltx_Y0Zv5QACfsf-YUlaZUqLrQGwWmxf-Q6jVIxRkhgGx=w477-h635-no">
+	<figcaption>Outside.</figcaption>
+</figure>
+
+## BooksActually & Tiong Bahru
+I'm in **LOVE** with this neighborhood. 
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/3-7TBj8gydZhZZlTtd8qfg2WTKvTN6wcK_-4ro36_Ho1aX20WTjkke2TYSTbH8_uAxnP2juKl7LDeFaz3VrrqE0UjKP7dde5HpbCMZaqoISNfBqfyQnavUVRO28t-1_9YX3j6KvDyJnLrNlbFv1LOX5OOVK-P5N4mvy1FibW9x-Xn05uDg6b27efZGy0PwVXHJrocARTBCZM7yVTxuTID4zeuATwuS4zyncG4vEIFZ8aJx-hxm1aPIP-EKH56QrzGBCZqIaT54AbQtmsw14rOK53H4-jT8O2HM4egfvxnwgUTiN418ATrV_Ja1JMu2GzqArCCM2l26pEc6EyVG868HIcLTs3h9BH_q0tk3yXTLXBR7HKZCR8GHx7D8bDMo7LwtjBPP5naKmcT8MXm6kAEv8F4byf3L_VWN4AqX9CBxLRO8ikVZKvs1u1ji5xk5K2iuhwyFWveiFt6y4NwXREXQIxZ_y6ssoasZzzvP-uVVC-61gczZdZRp90sh5kygz9HspIqc6qI8san0JphWIG7eVXePP-Z2TymTmIM-rachBlxkLa1iUoFhWpWaEw4ia55o_F7SGBwH3ft1IScdfI-ozaNJwM6JWKmsye3LOsfnX8ZeLrGar-=w477-h635-no">
+	<figcaption>Looooove.</figcaption>
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/l5iRv44Sn-Umn7Vrlgp0cWPsZrvG8q7jNuF6IwvFuxYHtAWt9Vn5K5MzbBZQf7Zy-SkAL42qStBYJUTVkKlY0yVb65rrcY5vqtrxaNJKhEryDm4AaDWa0jfIp8OV4jIMIcQW1tAlTi8EVCz5mVSex6ZRZsNYGVyjEQ7YxP1iHb5aWOzPn51dHdofiCiZije1xfefEwk9uZ-OgZy5ZB94TL4YSnfCWcYUJtl03iEA7l0ThkWnfzoh_sLChLnSTFkNY1iiDPR0asZ1-xM_XS_9Vhhax-Gm0p5KM8ovsBNMIm5K1Gdeptyj6BnU-MFxL2asto5qmINJ_Xfkt4hFTjqlz0MzzteJ48r3SV9ibAyyn5jltRqj3UyonA-8P-RyzG_EzU_BLBSpAfXpTGrTQZpBN371aheChtQrQEmFLr5LJdndvM_56KYhDnMwEjaA3PwbAHXHaoJf9KppTDGXN7Vo7F-5BC_cy9DV1TooPTBf_08tFI2pRO7vlwyuyNGRAAW8XDRyErfssaqV_8wPojQ4utshNOJ0rev3BYW_VOG5zPU77Ww2CdPk1naEWt_40KnNPnOpjfdTTK1Va2mpey7afsQto7loRLnN1JxvXgjO5MooVLyXMB49=w477-h635-no">
+	<figcaption>A corner in one of the apartment buildings.</figcaption>
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/9pV3jZZFM3L7nVNZzzXrrCH-sMPfvpjbsUKYRpK7c2Tt3m-Rg2usPc0Z6z9FXZU5i-V6Yva15gVJIcaJuC6ZEMqvQBdcFBaCneca6a5qYBiIBxtnHju1vvctRnT-guh91EcKUlIIGgTNqBpDG54T8u8LQK6i5ZR9jcdctzaeAyhU9znACjPq_ZmWSPFjzX15TkoGu5Sd7WJ5lDx1yVneMO-Eec1kKbnrAsQyyG1oRMV7xZeJ87_REYZ-4pEEAKPB7J0ic5nKaNzUhmQgd6Jp-c0qApw3PAd-Lo0pv37bkCXtFl2RtddPp3gy_lQL07O-mDRCwxH319be5_MJpnCGDKjLmwZ2hZPzzmlxY5A2zO1l46hUVykqzprtDEq1nrvYSCMoIU_b60ZiScJkfHjc1YHRbGl0haWfXbCvOFiuTxWqILFNhW530y3Ddv1YlZ3WKuQlYlLY0lA_udRj8TsAh0sa7cmZMJ7-pLhXKtgLq06x_n96hI7-dgVQNhZ0GheSTa5q4nOqvB0fVoncGUymCpVrrUt8SGKm78x3zihH_6WpH4uzQrC1Fps69_DLueY0oPpc3rJAB0Mij2VZojF8c2Bq2V0rdjiQ3znuovjHYir_FlOhlYaj=w477-h635-no">
+	<figcaption>If you haven't noticed yet, yes, it was super quiet.</figcaption>
+</figure>
+
+It has a Kota Tua old vibe in it. When we got there, there weren't many stores open, so I'm guessing they're open at night/on the weekends only. But we weren't there to shop, so all was fine. Actually we were there because we (... or me, to be more exact) wanted to visit BooksActually, which is an indepenent bookstore tucked away in the middle of the Tiong Bahru neighborhood. 
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/sPKNZBJpcEf8lRRHgi77VGI5pvdl3J0g9BfrDXVz85RGV6ir3aCdGNkmqpdi8s-CBjqBiUZ4GFX98vXgZUP72o_qhSjnUTmmG4v121HGsnSk5B95QLN_0RJYbvUwNchbJw-UhC3uHpeTrYIR9TP4x1eRObSzyMjBsgS5tPvuq0y_dnWHIWa1dXwDbVSvZyCtAUcIfsmh0tK5_GTtkusl4Va3TPPvI_DGY8ocVLRlc0CqLg8TAA2DeB3D9OGNKaQCdGVBxz8tTbWQxvJJJU-h7WVc4ehvy54PLutlXyg9iQxQet_TkB9eW856LiyyvacECBFHIfLiUxR2S4rxP5rmtkoZpuxBErMq8GCFadY_L19XP_IgovmYqHWvW9DMpNREiVltwyjce8x09qJvJZ85TMPfdhV5K7wyVwiZnPeecfg2Z6T8jpHCszlubSluHJthhJX7fH5NvW5VmFKXrKub9tTB1bF1Q3uwre-X-j1ph1C4SrY4ouoa0cCIMxkS0Sr1FoIhAcBswpCuC1vuLW6FwssYrwvOioGWbmK23tAZH0lZozy32ft1cNsnKLRBdd_cK_7mXqVhtGAujjP2weXk-cnhvdvLfQR4iGy_MJgDI8F3RcEHjcjj=w477-h635-no">
+	<figcaption>The front.</figcaption>
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/nvMf655ec28nM7hSSIox66GKLRrEnfU8lNg45E15kbg6lmsMhJa4kujUQpw8uEdgllx-CARP2lAKoJKazxs4RQHsFTWJli4yc-6CO6VL5C_YSsXF_UeTdMC8JFB5M8-wDYKg2O1pdqTd4r0yeTji3VmLaXQyjelZvo0p2MONI6ci6RYKeOcVrG08tH7gZRIaSLCad4eTWN1zwIATbFzJ0lQ0ynwVBUkt-SwTBMJJjORUmqe2xZmSfQOvt3yVirBszIzo-lCDRNNY_OSD6ABsBIXxS3l7Nr8sl-sDtxueb59-B_JVwTqg5D8TnUnfrSr02vBzHEcQl643G3kkPLkmjFcWCKLT0ngCNTrUGvx-naQcYryGf11iuN64HSXsww74f3QFylUUGqs1nQ1l7V0cIRAwao6O6g-PssMjW89Owz2lLReckrMYz1yzM6RdM2uotQ9cSjFAcsuLkBtViHGXnj2jhuaJBkTQrYXYHjNt25Jzz_ofh2EYb3yXjLQ8BhxFGP-VCq_qvAjGvqGYyUgNHf2Mh1oz6tqpQ4jI-GEWiIyypASbhAclhMceH-ourrbafhdnjMRHXYyWpKJgqjmq498VzzCdBU8dbE5bp9lRNQgUrwbDwo61=w477-h635-no">
+	<figcaption>Books books books!</figcaption>
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/1S_lheUVaR6WfpceHaUteSJEwR-Abz9xm-SV7nK4h1JVg_WymsR7f1HPtkhF1gbTcBQ3ii1lRhczAScZTqGh2KOEuZRYtLJbJJAc_EfWl0AvZN_GNHFZ0k9-Ly-CN-8XLTKKOVcTAGtQsgi64qpylgepihQx8861mJCN-tZSoMAOuv2cNDdH1FEr3wzYd3eerkLC8hyxHUpFrUZxysh712KIgAKSaVKEcs7v4Kj2XsduXCfMxoJBf0WFRjv67uNEKY0tyv0ERN_lJ9H-GOF5ekoc8LumESwH33sD1UEhult7EopBs7pe-AHTOlPD_w3kqXlH2-i7CtZKUpakC152bO-34AQcYpaeBNU7glY79ono5gL1vpJbIk566y-W0pS5TFDu2SsvP1NCtV_Kwh2XL97ww-RGQdTMlqV59hEqluQQjWp4UGGv2TLo9D88K0eRELYsmpJPiHRNQSxgn8FH241aAmuimALzojtZ9XvesbjmVfgvwuJQ-s8OGqZkh8_gliaqu_2TpbLOazSVUNRYCdrgrL8RxcIVYFS6klFpOZpUUOMbpHDymykgJKuyQKothXF-SwLlZzTETN8SxfTrWFAHewkcJLEOQEGlClTNGcFcBYuDsQIb=w477-h635-no">
+	<figcaption>More books books books!</figcaption>
+</figure>
+
+The bookstore didn't disappoint. I loved the vibes, the collection of books, &amp; even the playlist (they played The National, how can I *not* be in love?). The cats, too. They're lovely!
+
+You'll find some familiar books, but what piqued my interests weren't the familiar books that you usually stumble upon a Goodreads review. Instead, they were the independently published books which beared unfamiliar names &amp; titles, yet were *really* interesting that I ended up buying one.
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/4wV-0jeqahiCkcFC7jJjSm085SebkN3FMHqj8cej-_vHRaIowgSkX7F5zXYjB32-bfx9nTuA1M6kD23EkUUN0-Rcirhcj-UZnkjW-qRvjlFH79wbD14VbEaToYlXKgYdXhvFou7E5BElWZkEUpVGhq0dpb9VuAMckKzb6AgHF_3ueLp8ramiM5f3VLwIEyDPktXnIvMdVK9fRohOp2wBPFTMn8NRKjCBTjdo4w6K8yhiUUYg2itpwZEu4mCWPoouBtS4Ync4VLsK-sH-IRAzEhJPLRZyKdTX34NudTDKs8kex1RETkn6zz919B-OnryIgEQKi6E8YCFravKcQWoJ_7o-H1mgdQp_OKWex2Hu4f3RyChTKumv9abzzsuhrmEuv9QCHX_VSBlehrERhCCTK1Y5ylXamRV95Io1_I1yAMZ4NuwXTtzuKm4S7MXeC9tNNdnOnREwRH5m9Ftx9LtRWumqh3UHB8owOin9hVR5GS3mJvxXmiU5M2soQKEfCq_adb0eyzCkyHKkFaQx9-j3Wg_MJrTVZSqAJoiC9hxlM_Uu7py-VvZKYHtIEb0qg434Tny7eSi0jWLeROf14YWqoh1HtmKCquM2mIYhnqAshvRHochT7Wrd=w477-h635-no">
+	<figcaption>"Gignomai" is Ancient Greek for "to come into being"&dash;you might think it is synonymous to the word "born", but "gignomai" can also be used when the context is of an event or of something instead of a person. It's much broader than being "born". It really is about coming into being, which I found beautiful.</figcaption>
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/DFVbiR3EueYK6WwayUsXW_i28p6W_bGqtjqx9s_7aO63DPDN89-Uxfi4tSjMBrFPyhQaGQXfl8B_vlIKlkGUsB1XZ3r64yRLES9gggGQFt3SL0oYTUFuaABkpZoeOjm2pRwG4GW7OBr7TGsp4IcCqjpdg--vRYUDiepBozOb7GXLbO9hG8nAnrqDPNFLZstv2FbxuB3OBinFFmvPs4r3K_lC9F-E15VtGE2b0R-ZtPNjArwRCrdzQ9b1eH88VEjk1PdLSklkWbJOZUein1F1GSIN-pZtiDIyAq81QQeW0ZbVWq0JgC6V_2eRfFR6f3hfCU5DXVdrbIxg4uy31WyUOkjxc6LB3pG0aVskuhjhdzEePQdphJTsRTz5D5ufgoYdA3L7cJ6qXLAp5JbfFDwIZE2pOjpB1WGQx4i2RhSMsQptAWLWRi5iI8cz4gMGQB8McrXR0gAmMA-VBXFj-qE-7A_VoJZQm_JXIf_pP4UNmRX0E20-TMni7qR-z3PqYj4OrLTVRtIQN8FAqTFeaYtGDutzR8vO5uWuxGx6Nl3-mLC2hI_yuGMLq-9NGpzVazXc9i328p1Pr0lofsrWKMQzCEC4w2XOiqLG4npQC47_11A6Bq-QWQUP=w476-h635-no">
+	<figcaption>The mystery book vending machine. I didn't try it because I was short on money (ha ha) but my sister&dash;who would visit Singapore a week after I did&dash;did and got Murakami's <em>What I Talk About When I Talk About Running</em>.</figcaption>
+</figure>
+
+Most of these books didn't shy away from talking about Singaporean culture, being a Singaporean, and/or living in Singapore. I wondered if there is a similar bookstore like this in Indonesia, which also regularly publishes books like these. I'm sure us Indonesians also have a lot to talk about, considering our rich heritage (&amp; even rather absurd snapshots of our mundane daily lives). I believe one can write a 300-page nonfiction book on being stuck in a traffic in Jakarta. 😀
+
+## 1Altitude
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/n5XnahxK3fN4X6-7fR7m-HtX5f5_SP4OGev9-MGMIq-aztrVHguknbkIwqDfu3OG0GrbGUnVP0q58ymi90MfbKo66-rpe4DyDLzfCT4cztRRo0uIts7KQq0P7LjjW3W7OHNppWlHhQdRtL5tUPWg-ao0HOGlAKjq_LxsjkcILOeRrQ6GzBI05IRPaxVUpkqloXOuPwc0N3kUbo46iiCmnDfv9iTunpjuS-tFQTMRfoRdLqek0-_MvpmOuGQJSdZbfbHDPcoQiqXoodh3DDYc8rwAgP_NTNwCI0T8mTZdu6SzMhE0JecH60GChLGUXz8c9eqCLZgA_0HX-cWO0JDMOiAOWpR4-4-cv3IPCG0LC7DTNqy7p_ADN-7gZJDzySyXnGtyvzeNE00bpRulFtvYpfKk5HAjkquXHAIO7x6UMe3XVsk5pAEwH_JgaO9mT_p1r_l-HZVXGwIa360wOr5O2_XPiOIwMxkSO3wsLlBhf1mqRzL55qliktn63x16JJp-rEbfMcveneSOCKzIHklwNQlMlM0FQhV4pqJmOObRGTqU61KQvMtkDJFeJD0zTjGSBnM2mBzeqjL0BST2d9nEIBWGJW5M19bWNc3LQ8lao7cI3_J9mbVA=w847-h635-no">
+	<figcaption>How Singapore looks like from its highest point.</figcaption>
+</figure>
+
+We were only here for the view. Being the highest alfresco bar in the world, they must have a great view in store, right? And sure they did. 😀
+
+## Library@Orchard
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/j5Zb0i3MksgoWaS66KrdqWwoUVxMmmclwFQdl0s3S2zXKJ6GEgvsu9TaiA_fHu60MT4M5cLDfSoQrfWLr3iBPjtSVRX-sZwdhvoKSjvxplX2X6nYqKr2IqKDyuSQ2yJqJm1ALObaQ-LkoVoJ2BqIfwipwBUVqOdgLDNeH6Rj40-cgl9W2yUlo-vTPCOVeApCBhtDe57BO6mFzbVR3inEcj9RGsFNUNWsDDGhLPZxVq-7En-FhQQRf0bEhpoCnWUBoWlPTrCCATnNg7bCoS_QU4DOLj9rkksYwAGeg5qkjXfny_C2Zki1D5JL2AIOAeRMTDiZJIjvAOPZW2jCz5U8BRfV8TKST5VyWb-xrqruqgyNWU37I9kB5fnvzIZzXGJQfjkHX0JRe7aShWy0p4ekD8JQ5C81c_ti-lE28ZudNP80qGipISW7GmknsZaWvYAPY1PplmBlD7FOkL4AR-kXRuFRJsjx2luxfaJlDmDeex5-zRPevB7B3BigQBi8ScvtG13MOuMsQ1JP2PBadHTu4OO6qjPzxifb2I01-VdRIKprMHOwAnY5qdPXUMO61oG-K0rBNP7OnsXPfiKehxYJTtA-nnJ7nCaHV_qlPfM6fEleJ30aTVb1=w477-h635-no">
+	<figcaption>Finished it halfway&dash;gotta catch our flight!</figcaption>
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/lBkbPXtQ2KnZvEkFrd5QGXF_xbARucOa1_uA-YjPqfzvKeOMmp1NoCo2j-IchZaK4TmHm9LERBpU_Iuz9fZKukrcSejuhICWtDLN_GPgwrfT9YakNN8DSBZrPgcdWkVr3sBAJeuWGPR61hJ9rcGz8aBoL62uskdSxLxcJ2gJ9dp7npcUTLV7NyJmO25dAhhpDDmawadm-H9H9iWM-IIqDrZu6hj80E3PdqIZnom0rUoKrhtDf-iKyJfjgOaYwVL_vN1ltSIR5VAARXhI8ilfijcxqZqADi6VeNaqSCOi17d9IGn_bzXla9NZkoPupB_F5wmk2m-5QBbUapbCvhp9zWyXaY8bjhmIdcD0p1PlzHvEYMMLX0vry2lUVXISOybIXtiPy4lBvQmSpboR_9RS8t1AInNE74BXuL2Aw387lQxd5AiGTEL0Wzhat65-YOuvIFf1KB8RTZEYyqiiae6mNsQJSL9zt0msDG1F9T75QxWYwdxCMRKNigAx6z6Z9tORnacACeTzd3aqIf0-Rzi0uUM6oQhRnn0n90LnacWx868VDdqIdVKMDzjhRZGZul5oer405-6MAzO4_JxVqSjiS8h26f5MnchEqIsgssu0rCIHQF_ZUN8L=w844-h635-no">
+	<figcaption>From upstairs.</figcaption>
+</figure>
+
+Okay, a few people have raised their brows at me when I told them about this place. But this place is GOLD. They have everything, but by everyting, I mean **everything**. From Kinfolk to Black Hole Blues, they got it. If I were rich I'd love to build something like this in Grand Indonesia. Seriously.
+
+## Little India
+So my friend and I happened to be the kind of people who would randomly get off the bus/train to see what's outside, whatever it may be. I've been to Little India a couple of times, but before going to the airport we thought we'd kill time to walk around Little India, so why not, right? Actually I really don't know what else to say, we were literally just walking through strange alleys and quiet neighborhoods. Yeah, that's actually my definition of a perfect holiday.
+
+## Haji Lane
+Not even sure if I'd put it here... this is one of the places we visited because it seemed that we have to, haha.  Cool street art, though, I'd give 'em that.
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/UT8CUb7Kuz9ZyPj2esQ5ZdpIMtq3Ov2BEsb07iBt5Oy6mexZriybgtYkiU-7yOUTbmzkhhftmPAq17DJzPybX-OpWPxUEhKDsXYwyyoAjeZcg-Sb-jHV7xq1SUnVOfZOhQWO2_sOkYvN-hgTWhqzr4ZFQ-z-c_JLUSUgIN9sFVMJMaiV1FFNwzFfu1y1hpMNLu6Z1imIMyzMBt0PlHpAHkWs0dbhye2Xb2MEojvO5nYtmBw6ld5jZV9KAYb5c8VvUKbh-I_3CdN8TcfRDSuTum55xhIHLBGtvx4C71ZRFg5jCdqbfqOjr6BTPO988H1UInPPMlGGbhgpgf5cIGv7p__k72wrwkNuwxuzaDOnoFMVDMPFG1XKtkSA3vtaPkcx-M80UeLh1rHSk2TgL2a7Aa_o2_QRGLf_NW7upICNObTrS-w6FFMc7HvMqiCaDTyQY11MHKz5GCgWsfAAlrrY6q_vQayD02k6ph24NOUz_ggmSwVWwa-_4XdN_ewcyGC8z8O9LRycZ8FkIwG28ACfYHaRe1FguV-e5s4eJqPWcgNrKmXrMaLv2Tu8QIIcln9hV3clgBuQUFIPxIYoRBvPCxKmQxdwJYKUFyFEsK2CDhPwRwGlscu8=w847-h635-no">
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/NHfGVzUsVeq097bFHbcnEbvICC2fg4RxO4YQTF5WL3Lut_3v2Y-xSmPadb_IfwCT_MmmG_Q7avo0VVMI3dmqqRJGqGKo7cdyHFc4b45KknlppUPgL_naxr_gxfY2kgYO37XcE6ndVfZBQWSNc2xbNSqaiH9LXE2lGdFXyZgYDtt4rX09g-MKaEV0HGHCwpDA-I9Y_g_bDMzWCjKPVEsexr-ctVHIHeBJLinlM-LVKf4mOhrzcgPST5b-5JLvl_UhTXo_B_ZMOeydT2c4SjrUCKvzHZ932L0iH2r4-WEb5HqI6ioky6lQ4bELH8ohn4hXE46DDL7SCtGk3SVx8DzVF3JkEl31IzcT0FVzo3qt2PcNXmkaO5hO-dLccjvhwaKnu6L8ZZi8x6kZ6fws-ETHbvniFh_FyXNyzpErDxSRsYDswEyzHXTb8i32LQX8ODb0_vPpb4GbNw_1hBjo4-6afXKEpTb7gQIpRyxw1_2jl6xKIXf4ty4B1a7PcNd8-56EHYmeHK5vBL1vnBrJn7xxcBjaxZKFgVUE0ZLw4RmQD5QDy27U_hdkTJ75dTwNDiOMI3N_3EgrY2_Tjses4pMbI2HJPb8Tp2l7aJTPJD-bKAL-jMqisj8z=w477-h635-no">
+</figure>
+
+<figure>
+	<img src="https://lh3.googleusercontent.com/yuabdpwxtn3st99FN1O2vHX_mFyaBBDSFNNri6-f6A5OhXbRI37bIKZmCHrdCenm9OaRQ5wnYRfmzYUioozkIareiQksHR2DLDG0Mn5mB5Ks8L82_fJuDkwcsikuqQ2LKny5alfPJn9mj5ta7jygJLT-p9YhQ9-FzioMlKnMt7FwwjfxHmPkt5iVA2TSVqmrv27itcXwmPh7vGk1PAK2wxh9SCIgEcDSC37xjOLle5WMU6OWS6g1AiT6oDIqOtORhVx9Q9IQbxI8T0hb42abnt15XEAeq3hTPPSX0yDaCjyPhhfmpGnJGMjiqt3pdjSzqRcJXO4OKdpfaAJMWWShl_XVN8rsL7txiPfTQqse1PZ5QuXOi-JZdZjXARGTh05ENr0_nauH-Sgx9wYrqnREQVZy7Ljj7DKRLIST4sv5kbrhHjiNAK6PJK-HpbOYyfK8clG4MUPZwdhpvv78R4LBlC5yjgTCBDrvvD-q-J4YfJ3ZSRuV0se4OLNyzYBAMj6pt1v5dGY44-1BVyIqricDTZJZUeKybNjIgkK_zIO4VbD1kkn11ICfXpv5ntuB5wG80cFfK5ZoVyCqRecLdch6EAPmvQbc2Y_QSB358Dmi1viAQX44JBrp=w477-h635-no">
+	<figcaption>Quick snaps of Haji Lane.</figcaption>
+</figure>

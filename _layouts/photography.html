@@ -1,0 +1,36 @@
+{% include head-dark.html %}
+
+<header class="hero">
+    <div class="section-container">
+      <main class="pa3 pa5-ns">
+          <h3>&mdash; Note</h3>
+          <h1>Photography</h1>
+
+          {{ content }}
+
+      </main>
+    </div>
+</header>
+
+
+{% for post in site.posts %}
+  {% if post.tags contains 'photography' %}
+
+  <article class="photography-inside grid-item post">
+         
+    {% if post.image.feature contains 'https://' | escape or post.image.feature contains 'http://' | escape %}
+      <div class="photography-bg" style="background-image: url({{ post.image.feature }});"></div>
+    {% else %}
+      <div class="photography-bg" style="background-image: url({{ site.url }}/images/{{ post.image.feature }})"></div>
+    {% endif %}
+
+    <header class="photography-header">
+      <h1 class="photography-title"><a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }} <span></span></a></h1>
+    </header>
+
+  </article>
+
+  {% endif %}
+{% endfor %}
+
+{% include footer.html %}

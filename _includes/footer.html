@@ -1,7 +1,19 @@
-<footer class="footer-main">
-    {{ site.name }} © {{ site.time | date: '%Y' }} <a class="link" href="{{ site.url }}/feed.xml" target="_blank"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a>
+    <footer class="white-80 pv5 pv6-l ph4">
+      <div class="section-container">
+        <h3>&mdash; Colophon</h3>
+            <p>Fonts used are <a href="https://fonts.google.com/specimen/Playfair+Display">Playfair Display</a> for display, <a href="https://fonts.google.com/specimen/Karla">Karla</a> for heading &amp; <a href="https://fonts.google.com/specimen/Source+Sans+Pro">Source Sans Pro</a> for body font.</p>
 
-    <p class="extra">
-        <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a> by <a class="link" href="http://koppl.in">Kopplin</a>
-    </p>
-</footer>
+            <p>Powered by <a href="http://jekyllrb.com">Jekyll</a> &amp; <a href="http://tachyons.io">Tachyons</a> with a modification of the <a href="http://jekyll.gtat.me/about">Balzac</a> theme. Hosted by <a href="http://github.com">GitHub Pages</a>.</p>
+            
+            <p>Last updated July 2017.</p>
+      </div>
+    </footer>
+
+    <!-- If they're out, get some from the cellar -->
+    <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="{{ site.url }}/assets/js/retina.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="{{ site.url }}/assets/js/scripts.js"></script>
+  </body>
+</html>

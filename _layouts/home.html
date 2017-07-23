@@ -1,0 +1,67 @@
+{% include head-dark.html %}
+
+<header class="hero">
+  <div class="section-container">
+    <main class="pa3 pa5-ns">
+ 
+        <h3>&mdash; About</h3>
+        {{ content }}
+
+    </main>
+  </div>
+</header>
+
+<section class="recent-posts">
+  <div class="section-container">
+    <div class="column column--main">
+        <h3>&mdash; Recent Posts</h3>
+
+        <dl class="post-list">
+            {% for post in site.posts limit:5 %}
+            
+                <dt class="post-summary">
+                  <span class="fade"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %d %y" }} </time></span><br />
+                </dt>
+                <dd class="post-description">
+                  <h2 class="post-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+                </dd>
+
+            {% endfor %}
+        </dl>
+
+        <a href="/posts"><h3>More &raquo;</h3></a>
+
+    </div>
+  </div>
+</section>
+
+<section class="projects">
+  <div class="section-container">
+    <div class="column column--main">
+        <h3>&mdash; Projects</h3>
+        <dl class="projects-list">
+          {% for project_hash in site.data.projects %}
+            {% assign project = project_hash[1] %}
+
+            <dt class="project-summary">
+              <h2 class="project-title"><a href={{ project.url }}>
+              {{ project.name }}
+            </a></h2>
+              <div class="tags">
+                <span class="type">{{ project.category }}</span> <br />
+                {% for item in project.stack %}
+                <span class="stack">{{ item.name }}</span> 
+                {% endfor %}
+              </div>
+            </dt>
+            <dd class="project-description">
+              <p>{{ project.description }}</p>
+            </dd>
+
+          {% endfor %}
+        </dl>
+    </div>
+  </div>
+</section>
+
+{% include footer.html %}

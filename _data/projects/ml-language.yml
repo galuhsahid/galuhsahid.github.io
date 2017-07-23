@@ -1,0 +1,8 @@
+name: Language Identification with Machine Learning
+url: https://github.com/galuhsahid/language-identification-ml
+category: Machine Learning
+stack:
+  - name: Python
+  - name: Weka
+  - name: Java
+description: Document language identification with machine learning. The languages involved for classification are Indonesian, English, French, and Spanish. After several experiments with different classification methods, I managed to reach accuracy of 92.449% using Bayesian network classifier with F-measure value of 0.908 using 10-fold cross validation.
