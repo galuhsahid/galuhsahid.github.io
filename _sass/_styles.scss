@@ -474,6 +474,7 @@ header.site-header nav {
 .recent-posts {
     background-color: $orange;
     padding-bottom: 50px;
+    overflow: auto;
 
     .post-summary {
         width: 20%;
@@ -537,6 +538,7 @@ header.site-header nav {
     background-color: $white;
     padding-top: 100px;
     padding-bottom: 50px;
+    overflow: auto;
 
     .post-summary {
         width: 20%;
@@ -601,6 +603,7 @@ header.site-header nav {
 .projects {
     background-color: $white;
     padding-bottom: 50px;
+    overflow: auto;
 
     .project-summary {
         width: 20%;
