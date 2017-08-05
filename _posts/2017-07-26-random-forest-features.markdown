@@ -40,7 +40,7 @@ The full derivation is not described in the post, but the basic idea is to prese
 
 This idea can be generalized to other methods related to decision trees, although perhaps a few adjustments needed to be made. This is possible because the idea itself is derived from decision trees before it is expanded to random forest. For random forest, the sum of feature contributions for each prediction can be described as: 
 
-\\(F(x) = \frac{1}{J}{\sum\_{j=1}^J {c_{j}}_{full}} + \sum\_{k=1}^K (\frac 1J \sum\_{j=1}^J contrib_j(x, k) ) \\)
+$$F(x) = \frac{1}{J}{\sum\limits_{j=1}^J {c_{j}}_{full}}  + \sum\limits_{k=1}^K (\frac{1}{J}\sum\limits_{j=1}^J contrib_j(x, k))$$
 
 
 In the equation above, \\(J\\) is the number of trees, \\(c_{j_{full}}\\) is the value at the root of the node for each \\(J\\)-th tree, \\(K\\) is the number of features involved, and \\(contrib(x, K)\\) is the contribution from the \\(K\\)-th feature in the feature vector \\(x\\).
