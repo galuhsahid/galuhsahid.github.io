@@ -79,7 +79,7 @@ This is the one I’ve just begun to regularly do this year, particularly becaus
 
 Investing in gold used to be quite a hassle. Why? Using the conventional way of buying and selling at the gold seller, you definitely can't do it with a mere Rp50.000,-. Plus, you need to physically go to the gold seller bringing the blocks of gold on your own, which doesn’t sound secure, does it? 
 
-With BukaEmas, whenever you get the news that the price goes up and you want to sell, you can do it with just a few clicks. No more missed opportunities because you’re too lazy/you can't go out (which, seriously happens a lot. Watching the price rises THEN drops again with you not being able to do anything is the worst. Feeling. Ever.)
+With BukaEmas, whenever you get the news that the price goes up and you want to sell, you can do it with just a few clicks. No more missed opportunities because you’re too lazy/you can't go out (which seriously happens a lot. Watching the price rises THEN drops again with you not being able to do anything is the worst. Feeling. Ever.).
 
 ## Stocks
 There are a few ways to do this, you can trade by day or you can just buy blue-chip stocks and leave it there. I do the latter since I don’t have the time to do daily trading &amp; don't have enough capabilities to do a thorough [technical analysis](http://stockcharts.com/school/doku.php?id=chart_school:overview:technical_analysis)... yet. :P
@@ -91,7 +91,9 @@ Aside of blue-chip stocks, there are many other types of stocks as well. One typ
 I use Mandiri Sekuritas and trade my stocks through Mandiri Online Securities Trading (MOST). 
 
 ## How frequently do you invest your money? Is it a routine thing or do you just do it when you suddenly have tons of money!?
-There are different strategies to invest which depends on your purpose &amp; situaton as well as the market situation. The strategy I'm using is called **dollar-cost averaging** (or well, I guess in this case you can call it **rupiah-cost averaging**, haha). Putting it simply, I invest **a fixed amount of my money** at regular intervals without regard of the current prices. This means that when prices are low, I'll get to buy more shares &amp; when prices are high, I'll have to buy fewer shares. This way I don't need to worry about how the market is doing (well unless something really, really peculiar happens), &amp; just let the market average my investments (the low prices making up for the high prices). 
+There are different strategies to invest which depends on your purpose &amp; situaton as well as the market situation. The strategy I'm using is called **dollar-cost averaging** (or well, I guess in this case you can call it **rupiah-cost averaging**, haha). Putting it simply, I invest **a fixed amount of my money** at regular intervals without regard of the current prices. For example, I always buy stocks &amp; gold for a certain amount of Rupiah **every month** regardless of the price.
+
+This means that when prices are low, I'll get to buy more shares &amp; when prices are high, I'll have to buy fewer shares. This way I don't need to worry about how the market is doing (well unless something really, really peculiar happens), &amp; just let the market average my investments (the low prices making up for the high prices). 
 
 Another strategy is called **lump sum investment**. With lump sum investment, you're investing a large amount of your money at the same time. This might be more profitable than dollar-cost averaging if the markets are trending upward, because it lets you to take advantage of the growth right away. Yay high returns!
 
@@ -107,7 +109,7 @@ The answer, my friend, is in this video:
 
 Okay, serious answer:
 
-Diversification is basically putting your eggs in different baskets. You can diversify your portfolio from diversifying your stocks (e.g., choosing different industries of the stocks you're buying) until diversifying your investments (e.g., having both stocks and gold in your portfolio). The point is to have really, really different investments that should anything happen to one of them, you know that it's not going to affect your other investments because they're not correlated to each other.
+Diversification is basically putting your eggs in different baskets. You can diversify your portfolio from diversifying your stocks (e.g. choosing different industries of the stocks you're buying) until diversifying your investments (e.g. having both stocks and gold in your portfolio). The point is to have really, really different investments that should anything happen to one of them, you know that it's not going to affect your other investments because they're not correlated to each other.
 
 For example, I choose to add gold to my portfolio because it [tends to go up when everything else goes down](https://www.cnbc.com/2016/03/03/cramer-best-insurance-policy-for-your-portfolio.html). Say that the stock market crashes, I can at least minimize my risks by having gold make up a certain percent of my portfolio.
 
