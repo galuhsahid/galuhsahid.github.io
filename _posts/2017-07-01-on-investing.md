@@ -6,7 +6,7 @@ tags: [personal]
 
 A while ago, I posted about trying out BukaEmas on Instagram. I've also tweeted some things regarding investments. Since then, many have asked me about what kind of investments I do and how I decide which investment to do. I’m considering to write more about investing because many people have asked me about it, and really, your money can be worth a lot more if you don’t let it sit around in your bank account (or worse, in your old-style literal piggy bank). I think this is something that most people haven't realized yet, &amp; I really really want to share this with you all because I'm sure everyone can actually do this too!
 
-Disclaimer: I spend most of my time coding so I'm definitely not an expert in this. This post is basically a summary of what people have asked me about, what my mother has taught me over the years over coffee &amp; bowls of Vietnamese pho, some personal experiences &amp; some accompanying links to make cross-checking (please do! I might have made some mistakes) easier for y'all.
+Disclaimer: I spend most of my time coding so I'm definitely not an expert in this. This post is basically a summary of what people have asked me about, what my mother has taught me over the years over coffee &amp; bowls of Vietnamese pho (this is like her thing so y'all can trust her on this one), some personal experiences &amp; some accompanying links to make cross-checking (please do! I might have made some mistakes) easier for y'all.
 
 ## Why do I have to invest my money? Why now and not later?
 There are plenty of reasons why, but here are the reasons that stick with me the most:
@@ -126,7 +126,7 @@ Okay so this is getting MUCH, MUCH longer than how I intended it to be &amp; the
 
 If you have some spare time you can read the links &amp; the footnotes I've given throughout the post. I learned from them as well. There are so many things I left out for clarity's sake, but I'm trying to make things as concise as possible but I hope the accompanying links explain! If not, money return guaranteed. Just kidding! 
 
-You can shoot me a question &amp; I'll try my best to answer&mdash;if I can't, I'll relay them to my mother (whom you can trust, she's certified &amp; spends most of her life doing this!) (please don't hesitate to do this because I won't mind &amp; she won't mind as well, I love learning this kinda stuff so I'll definitely ask her &amp; bother her with this until I have my answers!). Please let me know if you have any correction too! I'm still learning so I might have made some mistakes.
+You can shoot me a question &amp; I'll try my best to answer&mdash;if I can't, I'll relay them to my mother (please don't hesitate to do this because I won't mind &amp; she won't mind as well, I love learning this kinda stuff so I'll definitely ask her &amp; bother her with this until I have my answers!). Please let me know if you have any correction too! I'm still learning so I might have made some mistakes.
 
 Happy investing! <3
 
