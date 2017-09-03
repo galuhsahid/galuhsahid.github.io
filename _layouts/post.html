@@ -1,63 +1,41 @@
-{% include head-dark.html %}
-
-<section class="article">
-
-{% if page.image.feature %}
-  <div class="overlay"></div>
-  {% if page.image.feature contains 'https://' | escape or page.image.feature contains 'http://' | escape %}
-  <div class="featured-image" style="background-image: url({{ page.image.feature }})"></div>
-  {% else %}
-  <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div>
-  {% endif %}
-{% else %}
-  <div class="overlay"></div>
-  <div class="featured-image" style="background-image: url({{ site.url }}/images/typewriter.jpg)"></div>
-{% endif %}
-
-
-      <article class="wrap post">
-        <header class="post-header">
-          <hgroup>
-            <p class="date">&mdash; {{page.date | date: "%b %d, %Y" }}</p>
-            <p class="category">
-              {% for category in page.tags %}
-                <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-                {% unless forloop.last %},{% endunless %}
-              {% endfor %}
-            </p>
-            <h1>{{page.title}}</h1>
-            <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
-          </hgroup>
-        </header>
-
+---
+layout: default
+---
+<article 
+    class="helvetica pb5 mtn7"
+    style="background:#f9f9f9;" 
+    >
+    <header class="vh-100 bg-light-pink dt w-100">
+        {% if page.image.feature %}
+            <div 
+            style="background:url({{ page.image.feature }}) no-repeat center right; background-size: cover;" 
+            class="dtc v-mid cover ph3 ph4-m ph5-l">
+                <h6 class="f6 mt7 mb2 dib">&mdash; {{ page.date | date_to_string }}</h6>
+                <br />
+                <h6 class="f6 mb2 dib">
+                    {% for category in page.tags %}
+                        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+                        {% unless forloop.last %},{% endunless %}
+                    {% endfor %}
+                </h6>
+                <h1 class="f2 f-subheadline-l measure white lh-title fw9 mt2 pv3">{{ page.title }}</h1>
+        {% else %}
+            <div 
+            style="background:linear-gradient(to bottom, #FFAFBD, #ffc3a0); no-repeat center right;background-size: cover;" 
+            class="dtc v-mid cover ph3 ph4-m ph5-l">
+                <h6 class="f6 mt7 mb2 dib">&mdash; {{ page.date | date_to_string }}</h6>
+                <br />
+                <h6 class="f6 mb2 dib">
+                    {% for category in page.tags %}
+                        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+                        {% unless forloop.last %},{% endunless %}
+                    {% endfor %}
+                </h6>
+                <h1 class="f2 f-subheadline-l measure lh-title fw9 mt2 pv3">{{ page.title }}</h1>
+        {% endif %}
+            </div>
+    </header>
+    <div class="blog sans-serif pa4 ph7-l mw9-l f5 center">
         {{ content }}
-
-      <a class="share" href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.canonical }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true">Share</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-      {% if page.comments %}
-      <aside class="disqus">
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = '{{ site.owner.disqus }}'; // required: replace example with your forum shortname
-
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-      </aside>
-      {% endif %}
-
-
-      </article>
-
-    </section>
-</div>
-
-{% include footer.html %}
+    </div>
+</article>

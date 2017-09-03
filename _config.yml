@@ -1,40 +1,8 @@
-title:            Galuh Sahid
-tagline:           
-description:       
+name: Galuh Sahid
 canonical: http://galuhsahid.github.io 
-
-# Owner/author information
-owner:
-  name:           Galuh Sahid
-  avatar:          
-  bio:            "Data, tech, & design."
-  email:          galuh.tunggadewi(at)gmail.com
-  twitter:        galuhsahid
-  github:         galuhsahid
-  instagram:      g__shd
-  location:       "Jakarta, ID"
-
-tools:
-  standards:      "HTML, SCSS, Jekyll"
-  software:       "git"
-
-# Open Graph customization
-opengraph:
-  locale:           en_US
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About
-    url: /about
-  - title: Places
-    url: /places
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-markdown:    kramdown
-
+highlighter: rouge
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+markdown: kramdown
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -42,19 +10,3 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
   math_engine: mathjax
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-sass:
-    style: :compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]

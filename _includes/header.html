@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }} | {{ site.name }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        
+        <!--  Tachyons.io -->
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css"/>
+        <link rel="stylesheet" href="http://npmcdn.com/tachyons-negative-margin@1.0.0/css/tachyons-negative-margin.min.css"/>
+        
+        <!-- jQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        
+        <!-- MathJax -->
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+        ></script>
+        
+    </head>
+
+    <body>
+
+        <div class="site">
+          <div class="header">
+            
+            <section class="mw5 mw8-ns center pa3 ph5-ns">
+                <!-- Navigation Bar -->
+                <nav class="db dt-l w-100 border-box pa3 ph5-l">
+                    <a class="db dtc-l v-mid white link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="/" title="Home">
+                            {{ site.name }}</a>
+                    </a>
+                    <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+                        <a class="link dim white f6 f5-l dib mr3 mr4-l" href="/" title="Home">Home</a>
+                        <a class="link dim white f6 f5-l dib mr3 mr4-l" href="/blog" title="Blog">Blog</a>
+                        <a class="link dim white f6 f5-l dib mr3 mr4-l" href="/#projects" title="Projects">Projects</a>
+                        <a class="link dim white f6 f5-l dib mr3 mr4-l" href="/photography" title="Photography">Photography</a>
+                        <a class="link dim white f6 f5-l dib" href="/sketches" title="Sketches">Sketches</a>
+                    </div>
+                </nav>
+            </section>
+          </div>

@@ -1,0 +1,109 @@
+@import "reset";
+@import "syntax";
+@import "svg";
+@import "variables";
+
+body {
+    background: linear-gradient(to bottom, #FFAFBD, #ffc3a0);
+    font-family: 'Inconsolata', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+blockquote {
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-color: #FFAFBD;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, .9);
+    padding-left: 2rem;
+    max-width: 20em;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+img {
+    height: auto;
+    display: block;
+    margin: 28px auto;
+}
+
+figure img {
+    margin-bottom: 14px;
+}
+
+figure figcaption {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*****************************************************************************/
+/*
+/* Heading
+/* References to Tachyons.io's Type Scale
+/*
+/*****************************************************************************/
+
+h1 { font-size: 3rem; padding: 5px 0px 5px 0px; }
+h2 { font-size: 2.25rem; padding: 5px 0px 5px 0px; }
+h3 { font-size: 1.5rem; padding: 5px 0px 5px 0px; }
+h4 { font-size: 1.25rem; padding: 5px 0px 5px 0px; }
+h5 { font-size: 1rem; padding: 5px 0px 5px 0px; }
+h6 { font-size: .875rem; padding: 5px 0px 5px 0px; }
+
+/*****************************************************************************/
+/*
+/* Navigation
+/*
+/*****************************************************************************/
+
+.navigation {
+    color: $default-navigation-color;
+}
+
+/*****************************************************************************/
+/*
+/* Blog
+/*
+/*****************************************************************************/
+
+.blog a {
+    color: #FFAFBD;
+    background-color: #333;
+    padding: 3px;
+}
+
+/*****************************************************************************/
+/*
+/* Photography
+/*
+/*****************************************************************************/
+
+.photography-title {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.photography-title:hover {
+    color: #fff;
+}
+
+.photography-title::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 8px;
+    background: linear-gradient(to right, #FFAFBD, #ffc3a0);
+    transition: width .3s;
+}
+
+.photography-title:hover::after {
+    width: 100%;
+}

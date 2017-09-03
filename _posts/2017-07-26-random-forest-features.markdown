@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title:  "Positive and Negative Feature Contributions of Random Forest with TreeInterpreter"
 date:   2017-07-26
 tag: machine learning

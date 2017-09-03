@@ -3,3 +3,7 @@ _site
 .sass-cache
 .npm-debug.log
 Gemfile.lock
+node_modules
+.idea
+gulpfile.js
+package.json

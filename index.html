@@ -1,0 +1,82 @@
+---
+layout: default
+title: Home
+---
+
+<div class="mw9 center pa4 pt5-ns ph7-l">
+    <h6 class="f6 mb2 dib">&mdash; About</h6>
+    <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+      <span class="f1 bg-gray-90 lh-copy white pa1 tracked-tight">
+        Hi, I'm Galuh.
+      </span>
+    </h3>
+    
+    <p class="f4 lh-copy measure">
+        I'm an undergraduate computer science student at Universitas Indonesia, currently
+        working on my final year. I love data, tech, &amp; design.
+    
+    <p class="f5 lh-copy measure-wide">
+        In the past, I worked as a data scientist intern in a fintech company, 
+        turning big data into usable data products where users can get various 
+        valuable insights from. I've also worked on various freelance web development &amp; graphic
+        design projects.
+    </p>
+
+    <p class="f5 lh-copy measure-wide">
+        If you can't tell already, I enjoy doing a little bit of everything. 
+        When not coding, I enjoy sketching buildings &amp;
+        statues I've been to/seen, traveling (&amp; taking photographs whilst), 
+        writing fiction, &amp; reading.
+    </p>
+</div>
+
+<div class="mw12 center pa4 pt5-ns ph7-l">
+    <h6 class="f6 mb2 dib">&mdash; Recent Blog Posts</h6>
+
+    <div class="cf ph3 ph5-ns pv5">
+      {% for post in site.posts limit:5 %}
+      <div class="mt4 fn fl-ns w-30-ns pr4-ns">
+        <time class="f6 ttu tracked dark-gray" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %d %y" }} </time>
+      </div>
+      <div class="mt4 fn fl-ns w-70-ns">
+          <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
+              <a class="blog-list f3 fw6 db white link" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+          </h1>
+      </div>
+      {% endfor %}
+    </div>
+
+    <a href="/blog" class="f5 no-underline dark-gray bg-animate hover-white inline-flex items-center pa3 ba border-box">
+      <span class="pr1">More</span>
+      <svg class="w1" data-icon="chevronRight" viewBox="0 0 32 32" style="fill:currentcolor">
+        <title>chevronRight icon</title>
+        <path d="M12 1 L26 16 L12 31 L8 27 L18 16 L8 5 z"></path>
+      </svg>
+    </a>
+</div>
+
+<div class="mw12 center pa4 pt5-ns ph7-l">
+    <a name="projects"></a> 
+    <h6 class="f6 mb2 dib">&mdash; Projects</h6>
+
+    <div class="cf ph3 ph5-ns pv5">
+        {% for project_hash in site.data.projects %}
+        {% assign project = project_hash[1] %}
+        <div class="mt5 fn fl-ns w-30-ns pr4-ns">
+          <span class="f6 link br1 ba ph2 pv1 mb2 dib black fr">{{ project.category }}</span>
+          {% for item in project.stack %}
+          <span class="f6 link br1 ba ph2 pv1 mb2 dib near-white fr ma1">{{ item.name }}</span> 
+          {% endfor %}
+        </div>
+
+        <div class="mt4 fn fl-ns w-70-ns">
+            <h2 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
+                <a class="db white link" href="{{project.url}}">{{ project.name }}</a>
+            </h2>
+            <p class="f5 lh-copy measure">
+                {{ project.description }}
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
