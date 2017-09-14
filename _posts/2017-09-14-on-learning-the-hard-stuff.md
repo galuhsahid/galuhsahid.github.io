@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On Learning the Hard Stuff"
+title: "On Learning and Doing the Hard Stuff"
 tags: [personal]
 ---
 
