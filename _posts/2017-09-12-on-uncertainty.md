@@ -8,7 +8,7 @@ This is pretty much a train of thoughts that I had last week, when everyone aske
 
 -
 
-Up 'til a few months ago I thought I knew what I'd be doing later in life. Now: ¯\_(ツ)_/¯
+Up 'til a few months ago I thought I knew what I'd be doing later in life. Now: ¯\\_(ツ)_/¯
 
 It's not because I don't love what I'm doing. In fact I do with a capital L. I love doing plenty of things but even though I'm no prodigy, computers will always have a special spot in my heart. But the more you think you know stuff... well, you don't.
 
@@ -32,4 +32,4 @@ For me it goes down to one thing: a vision. I want to make a positive impact for
 
 Going back to the map analogy, right now I might not have a map with me. I've bid my "so long, farewell, auf wiedersehen goodbye" to the map. But despite that, I'm sure as hell what kind of place I want myself to arrive in. 
 
-So there you go. What do you want to do after university? In life? I don't know. ¯\_(ツ)_/¯ But like Tolkien said, not all those who wander are lost. 🎉
+So there you go. What do you want to do after university? In life? I don't know. ¯\\_(ツ)_/¯ But like Tolkien said, not all those who wander are lost. 🎉
