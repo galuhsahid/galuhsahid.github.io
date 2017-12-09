@@ -1,5 +1,5 @@
 name: Galuh Sahid
-canonical: http://galuhsahid.github.io 
+canonical: http://galuhsahid.me
 highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 markdown: kramdown
