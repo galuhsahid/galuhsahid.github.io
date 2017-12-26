@@ -4,12 +4,12 @@
 {% for book_data in book %}
     <article class="cf ph3 ph5-ns pv5">
         <header class="fn fl-ns w-50-ns pr4-ns">
-            <h1 class="mb3 mt0 lh-title avenir">{{ book_data.title }}</h1>
+            <h1 class="mb3 mt0 lh-title pinkish-red calisto">{{ book_data.title }}</h1>
             <h2 class="f6 ttu tracked gray avenir">{{ book_data.author }}</h2>
             <h4 class="avenir">Read in {{ book_data.year-read }}</h2>
             <img src="{{site.url}}/assets/images/books/{{ book_data.image }}" class="mw-100 center" alt="Book cover">
         </header>
-        <div class="lh-copy helvetica fn fl-ns w-50-ns">
+        <div class="lh-copy avenir fn fl-ns w-50-ns">
             <p class="lh-copy measure mt4 mt0-ns">
             {{ content }}
             </p>

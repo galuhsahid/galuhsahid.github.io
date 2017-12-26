@@ -1,8 +1,7 @@
 name: Social Project Donation Estimator
-url: 
+url: http://pyconid-demo.herokuapp.com
 category: Data Science
 stack:
   - name: Python
-  - name: Flask
   - name: R
 description: Social Project Campaign Success Estimator will help you find out the statistics of your campaign and whether you will reach your donation target.

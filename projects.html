@@ -1,0 +1,30 @@
+---
+layout: default
+title: Projects
+---
+
+<div class="mw12 center pa4 pt5-ns ph7-l">
+    <a name="projects"></a> 
+    <h6 class="f6 mb2 dib">&mdash; Projects</h6>
+
+    <div class="cf ph3 ph5-ns pv5">
+        {% for project_hash in site.data.projects %}
+        {% assign project = project_hash[1] %}
+        <div class="mt5 fn fl-ns w-30-ns pr4-ns">
+          <span class="f6 link br1 ba ph2 pv1 mb2 dib black fr bw2 b">{{ project.category }}</span>
+          {% for item in project.stack %}
+          <span class="f6 link br1 ba ph2 pv1 mb2 dib fr ma1 darkish-blue">{{ item.name }}</span> 
+          {% endfor %}
+        </div>
+
+        <div class="mt4 fn fl-ns w-70-ns">
+            <h2 class="f3 lh-title fw9 mb3 mt0 pt3 bt bw2 calisto">
+                <a class="db pinkish-red link" href="{{project.url}}">{{ project.name }}</a>
+            </h2>
+            <p class="f5 lh-copy measure">
+                {{ project.description }}
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+</div>

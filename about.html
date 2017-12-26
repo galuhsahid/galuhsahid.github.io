@@ -1,0 +1,62 @@
+---
+layout: default
+title: About
+---
+
+<div class="avenir mw9 center pa4 pt5-ns ph7-l">
+    <h6 class="f6 mb2 dib">&mdash; About</h6>
+    <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+      <span class="f1 bg-gray-90 lh-copy pinkish-red pa1 calisto">
+        Hi! I'm Galuh.
+      </span>
+    </h3>
+    
+    <p class="f4 lh-copy measure">
+        I'm an undergraduate computer science student at Universitas Indonesia. Three of my favorite things are <b>data</b>, <b>tech</b>, &amp; <b>design</b>.
+    
+    <p class="f5 lh-copy measure-wide">
+        Previously I worked as a data scientist intern in Midtrans, 
+        helping turn big data into usable data products where users can get various 
+        valuable insights from. 
+    </p>
+
+    <p class="f5 lh-copy measure-wide">
+        I also spent a year working on <a href="http://compfest.web.id">CompFest</a>, the biggest student-run 
+        IT event in Indonesia. You should totally check it out! 
+        Here's <a href="https://medium.com/tales-of-stepitup/stepitup-the-beginning-514b614064a3">my write-up of what we do</a>, <a href="{{site.url}}/categories/#stepitup">a bunch of
+        lessons learned</a>, and <a href="https://komunika.tempo.co/read/news/2016/09/26/273807423/magz.tempo.co?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_treasury%3Bjv6f0XbxS6CantEOZLMWqw%3D%3D#.WhY0iUuLn6Y">some</a> <a href="https://id.techinasia.com/ide-iot-yang-terpilih-di-iot-academy-compest-8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_treasury%3B%2BZlzFG7iT6KpCYpz3S7plg%3D%3D">publication</a> covering our work.
+    </p>
+
+    <p class="f5 lh-copy measure-wide">
+        Before all that, I did freelance graphic design, web design, and web development projects.
+    </p>
+
+    <p class="f5 lh-copy measure-wide">
+        I do other things too, like sketching buildings &amp; statues I've been to/seen, traveling (&amp; taking photographs whilst), writing fiction, and <a href="{{site.url}}/bookshelf">reading</a>.
+    </p>
+
+    <h3 class="mt4">Talks &amp; Publication</h3>
+    {% for item in site.data.talks-publication %}
+
+        <div class="mt3">
+        <span class="f6">{{ item.where }}</span>
+        <span class="mt1 db b measure-wide">{{ item.title }}</span>
+        {% if item.what == "talk" %}
+            <div class="mt1">
+                <span class="mr2"><a href="{{ item.slides }}">Slides</a></span>
+                <span><a href="{{ item.code }}">Code</a></span>
+            </div>
+        {% endif %}
+        {% if item.what == "paper" %}
+            <div class="mt1">{{ item.author }}</div>
+        {% endif %}
+        </div>
+    {% endfor %}
+
+    <h3 class="mt4">Elsewhere</h3>
+    <p class="f5 lh-copy measure-wide">
+        I'm on <a href="http://twitter.com/galuhsahid">Twitter</a>, <a href="http://medium.com/@galuhsahid">Medium</a>, <a href="http://github.com/galuhsahid">GitHub</a> and <a href="http://instagram.com/galuhsahid">Instagram</a>.
+    </p>
+
+   
+</div>

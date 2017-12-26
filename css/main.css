@@ -13,7 +13,7 @@ html, body {
 
 body {
   background-color: black;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px Avenir, sans-serif;
   font-size: small;
   text-align: center; }
 
@@ -24,10 +24,12 @@ h1 {
   margin-bottom: 1em; }
 
 p {
-  margin: 1em 0; }
+  margin: 1em 0;
+  line-height: 1.8; }
 
 a {
-  color: #fff; }
+  color: #FF3543;
+ }
 
 a:hover {
   color: #333; }
@@ -402,18 +404,28 @@ a:hover {
   height: 1.5em; }
 
 body {
-  background: linear-gradient(to bottom, #FFAFBD, #ffc3a0);
-  font-family: 'Inconsolata', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #FFF1EE;
+  font-family: Avenir, sans-serif;
   font-size: 1em;
   height: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  color: #333; }
+  color: #060F46; }
 
+  #left {
+    background: #2852FF;
+    position: fixed;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    width: 15px;
+    margin-right: 15px;
+  }
+    
 blockquote {
   border-left-style: solid;
   border-left-width: 4px;
-  border-color: #FFAFBD;
+  border-color: #2852FF;
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.9);
   padding-left: 2rem;
@@ -448,7 +460,7 @@ h1 {
 
 h2 {
   font-size: 2.25rem;
-  padding: 5px 0px 5px 0px; }
+  padding: 50px 0px 20px 0px; }
 
 h3 {
   font-size: 1.5rem;
@@ -465,6 +477,18 @@ h5 {
 h6 {
   font-size: .875rem;
   padding: 5px 0px 5px 0px; }
+
+.pinkish-red {
+  color: #FF3543
+}
+
+.lighter-salmon {
+  color: #ffc3a0
+}
+
+.darkish-blue {
+  color: #2852FF
+}
 
 /*****************************************************************************/
 /*
