@@ -1,8 +1,19 @@
+- title: Little Fires Everywhere
+  author: Celeste Ng
+  image: littlefireseverywhere.jpg
+  link: little-fires-everywhere
+  year-read: "2017"
+
 - title: "Whiplash: How to Survive Our Faster Future"
   author: Joi Ito and Jeff Howe
   image: whiplash.jpg
   link: whiplash
   year-read: "2017"
+
+- title: The Desire for Elsewhere
+  author: Agnes Chew
+  image: thedesireforelsewhere.jpg
+  link:
 
 - title: Ghana Must Go
   author: Taiye Selasi
@@ -212,6 +223,21 @@
 - title: The Wind-Up Bird Chronicle
   author: Haruki Murakami
   image: windupbird.jpg
+  link:
+
+- title: 1Q84
+  author: Haruki Murakami
+  image: 1q84.jpg
+  link:
+
+- title: The Stranger
+  author: Albert Camus
+  image: thestranger.jpg
+  link:
+
+- title: The Improbability Principle
+  author: David J. Hand
+  image: improbability.jpg
   link:
 
 - title: Kafka on the Shore
