@@ -1,3 +1,15 @@
+- title: The Subtle Art of Not Giving a F*ck
+  author: Mark Manson
+  image: thesubtleartof.jpg
+  link: the-subtle-art-of
+  year-read: "2017"
+
+- title: Turtles All the Way Down
+  author: John Green
+  image: turtlesallthewaydown.jpg
+  link: turtles-all-the-way-down
+  year-read: "2017"
+
 - title: Little Fires Everywhere
   author: Celeste Ng
   image: littlefireseverywhere.jpg
@@ -288,6 +300,11 @@
 - title: "Trainspotting"
   author: Irvine Welsh
   image: trainspotting.jpg
+  link:
+
+- title: "Where'd You Go, Bernadette"
+  author: Maria Semple
+  image: wheredyougo.jpg
   link:
 
 - title: "The Talented Mr. Ripley"
