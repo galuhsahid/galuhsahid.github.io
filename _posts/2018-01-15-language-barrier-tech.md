@@ -11,7 +11,7 @@ I jump between thoughts a lot. Here is a tiny portion of what has been on my min
 
 This post is what happens when all of the three points above are meshed together.[^1]
 
-Recently, aside of doing technical contributions for open source projects, I also contributed to the Bahasa Indonesia translation of [Array Explorer](https://sdras.github.io/array-explorer/) and [Object Explorer](https://sdras.github.io/array-explorer/). Both are awesome resources and I imagine if I were learning JavaScript for the first time, I'd love to have resources like both of them. It would be even better when they are available in my native language, because it means I have one less thing to think about (and struggle over). I can focus on the learning JavaScript part without worrying what exactly does "walking over an array" mean[^2].
+Recently, aside of doing technical contributions for open source projects, I also contributed to the Bahasa Indonesia translation of [Array Explorer](https://sdras.github.io/array-explorer/) and [Object Explorer](https://sdras.github.io/object-explorer/). Both are awesome resources and I imagine if I were learning JavaScript for the first time, I'd love to have resources like both of them. It would be even better when they are available in my native language, because it means I have one less thing to think about (and struggle over). I can focus on the learning JavaScript part without worrying what exactly does "walking over an array" mean[^2].
 
 Some of you might think that learning English is easy. While writing or speaking with an impeccable grammar is hard, but at least it's easy for everyone to understand English as they go, right? 
 
