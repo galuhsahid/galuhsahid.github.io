@@ -54,7 +54,7 @@ I started out by translating [Mozilla Development Network (MDN)](https://develop
 You can also find projects that you're interested in on GitHub, and see whether they need help for translation. 
 
 ## Tips, tricks, and tools for English-Indonesian translation
-I'm not a professional translator in any way. My translations are not perfect--sometimes I'm still conflicted on whether I should settle in using English words (such as "browser") which are more common, or start the habit of using Indonesian words (such as *"perambah"*) which may be less common and even less recognizable than its English counterpart (if you have any advise on this, please let me know!).
+I'm not a professional translator in any way. My translations are not perfect--sometimes I'm still conflicted on whether I should settle in using English words (such as "browser") which are more common, or start the habit of using Indonesian words (such as *"perambah"*) which may be less common and even less recognizable than its English counterpart (if you have any advice on this, please let me know!).
 
 However, below are some tricks or tools that I've found to be helpful:
 - [Sederet](http://sederet.com), for Indonesian-English and English-Indonesian quick lookup. Sometimes I just forget words and this is very handy.
