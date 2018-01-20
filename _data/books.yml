@@ -1,6 +1,12 @@
+- title: The Internet of Garbage
+  author: Sarah Jeong
+  image: theinternetofgarbage.jpg
+  year-read: "2018"
+
 - title: Ready Player One
   author: Ernest Cline
   image: readyplayerone.jpg
+  link: ready-player-one
   year-read: "2018"
 
 - title: Crazy Rich Asians
