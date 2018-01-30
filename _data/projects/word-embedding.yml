@@ -1,0 +1,8 @@
+name: Indonesian Word Embedding
+url: http://github.com/galuhsahid/indonesian-word-embedding
+category: Development
+stack:
+  - name: Node.js
+  - name: Vue.js
+  - name: Flask
+description: Indonesian word embedding demo. Currently serving a model pre-trained Word2vec model from Wikipedia texts using the CBOW training algorithm.
