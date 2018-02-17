@@ -20,7 +20,7 @@ summary:    Commit message #3
 
 changeset:  398107:e2348a34dc00
 user:       Galuh <foo@bar.com>
-date:       Thu Jan 11 19:54:14 2018 +0700
+date:       Thu Jan 11 20:03:22 2018 +0700
 summary:    Commit message #2
 
 changeset:  398106:ece3485a435g
@@ -123,6 +123,16 @@ fold e6478a92425f Commit message #3
 
 Save the file and run `hg commit`. You'll be asked to write a new commit message, so you can edit your commit message here. Then, run `hg push`.
 
-If you want to make sure that everything works as intended, run `hg log` and (hopefully) you're left with one commit instead of three like previously.
+If you want to make sure that everything works as intended, run `hg log` and (hopefully) you're left with one commit instead of three like previously:
+
+```
+changeset:  398106:ece3485a435g
+user:       Galuh <foo@bar.com>
+date:       Thu Jan 11 19:54:14 2018 +0700
+summary:    New commit message
+
+...
+
+```
 
 For more information on the `Histedit` extension, click [here](https://www.mercurial-scm.org/wiki/HisteditExtension).
