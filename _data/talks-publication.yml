@@ -1,3 +1,26 @@
+- title: "Building Command-Line Tools and Dashboards with JavaScript"
+  what: talk
+  where: "ScotlandJS 2018"
+  when: "July 2018"
+  status: "upcoming"
+  website: "http://scotlandjs.com"
+
+- title: "Building Data-Driven Web Apps with Flask"
+  what: talk
+  where: "PyCon APAC 2018"
+  when: "June 2018"
+  status: "upcoming"
+  website: "http://pycon.sg"
+
+- title: "Demistifying Neural Artistic Style Transfer"
+  what: talk
+  where: "CS UI Dev Meetup #2"
+  when: "April 2018"
+  slides:
+  code:
+  video:
+  status: "past"
+
 - title: "Building Data-Driven Web Apps with Flask"
   what: talk
   where: "PyCon Indonesia 2017"
@@ -5,6 +28,7 @@
   slides: http://galuh.me/pyconid2017
   code: http://github.com/galuhsahid/pyconid2017
   video: 
+  status: "past"
 
 - title: "Estimating the Collected Funding Amount of the Social Projects in a Crowdfunding Platform"
   what: paper
@@ -13,3 +37,4 @@
   author: Galuh Tunggadewi Sahid, Ivana Putri, Intan Sari Septiana, and Rahmad Mahendra
   slides: 
   link:
+  status: "past"

@@ -36,21 +36,42 @@ title: About
     </p>
 
     <h3 class="mt4">Talks &amp; Publication</h3>
-    {% for item in site.data.talks-publication %}
 
+    <h4>Upcoming</h4>
+    {% for item in site.data.talks-publication %}
         <div class="mt3">
-        <span class="f6">{{ item.where }}</span>
-        <span class="mt1 db b measure-wide">{{ item.title }}</span>
-        {% if item.what == "talk" %}
-            <div class="mt1">
-                <span class="mr2"><a href="{{ item.slides }}">Slides</a></span>
-                <span><a href="{{ item.code }}">Code</a></span>
+        {% if item.status == "upcoming" %}
+            <span class="f6">{{ item.where }}</span>
+            <span class="mt1 db b measure-wide">{{ item.title }}</span>
+                {% if item.what == "talk" %}
+                    <div class="mt1">
+                        <span class="mr2"><a href="{{ item.website }}">More Info</a></span>
+                    </div>
+                {% endif %}
+                {% if item.what == "paper" %}
+                    <div class="mt1">{{ item.author }}</div>
+                {% endif %}
             </div>
         {% endif %}
-        {% if item.what == "paper" %}
-            <div class="mt1">{{ item.author }}</div>
+    {% endfor %}
+
+    <h4>Past</h4>
+    {% for item in site.data.talks-publication %}
+        <div class="mt3">
+        {% if item.status == "past" %}
+            <span class="f6">{{ item.where }}</span>
+            <span class="mt1 db b measure-wide">{{ item.title }}</span>
+                {% if item.what == "talk" %}
+                    <div class="mt1">
+                        <span class="mr2"><a href="{{ item.slides }}">Slides</a></span>
+                        <span><a href="{{ item.code }}">Code</a></span>
+                    </div>
+                {% endif %}
+                {% if item.what == "paper" %}
+                    <div class="mt1">{{ item.author }}</div>
+                {% endif %}
+            </div>
         {% endif %}
-        </div>
     {% endfor %}
 
     <h3 class="mt4">Elsewhere</h3>
