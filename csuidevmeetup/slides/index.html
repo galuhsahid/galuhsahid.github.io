@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Demystifying Neural Artistic Style Transfer</title>
+    <meta name="description" content="Demystifying Neural Artistic Style Transfer">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="static/css/svg-icons.css">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+  </head>
+  <body>
+   
+
+    <main role="main">
+      <article id="webslides" class="vertical">
+
+        <section>
+          <div class="wrap aligncenter">
+            <h1>Demystifying Neural Artistic Style Transfer</h1>
+            
+            <nav>
+               <ul>
+                 <li><a href="https://twitter.com/galuhsahid">@galuhsahid</a> | <a href="http://galuh.me">galuh.me</a></li>
+               </ul>
+             </nav>
+          </div>
+        </section>
+
+        <section class="wrap">
+          <div class="wrap">
+            <h1>
+              Hi! I'm Galuh.
+            </h1>
+            <h4>
+              Currently 💼 Data Engineer in Midtrans
+            </h4>
+            <h4>
+              Previously 🎓 Fasilkom UI 2014
+            </h4>
+          </div>
+        </section>
+
+        <section class="wrap">
+          <div class="wrap">
+            <h1>
+              Wait, isn't this like a developers meetup?
+            </h1>
+            <div class="aligncenter">
+              <iframe src="https://giphy.com/embed/xT0xeqokUdcdyURrMs" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </div>
+          </div>
+        </section>
+
+        <section>
+           
+            <div class="wrap">
+              <div class="aligncenter">
+                <img src="static/images/paper.png" width="700px">
+                <h5><a href="https://arxiv.org/pdf/1508.06576.pdf">arXiv</a></h5>
+              </div>
+
+              <!-- Kita akan bahas tentang ini. Now a few reasons why:
+                - (personally) menurut gue ini fun banget
+                - Papernya gak begitu susah! Approachable banget.
+                - Dan ini jd pionir neural style transfer selanjutnya, jadi kalau udah baca ini,
+                  bakalan lebih mudah untuk ngerti perkembangan2 selanjutnya. -->
+
+              <!-- Dan karena judulnya sendiri adalah demistifying, gue nggak akan bahas detail tentang 
+              rumus-rumus matematik ngejelimet. Kita akan lebih ngebahas tentang intuisi dari neural style transfer,
+              supaya kita ngerti apa sih yang sebenernya terjadi ketika kita mengaplikasikan neural style transfer,
+              kenapa bisa komputer ngelakuin ini, aaand we'll take a look at some code.-->
+            </div>
+            <!-- .end .wrap -->
+          </section>
+
+          <section>
+            <div class="wrap">
+              <div class="aligncenter">
+                <img src="static/images/deepart.png" width="500px"></img>
+                <img src="static/images/prisma.png" width="500px"></img>
+                <br /><br />
+                The algorithm behind <a href="http://deepart.io">DeepArt.io</a> and 
+                <a href="https://prisma-ai.com/">Prisma</a>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="wrap">
+              <h1>
+                What is neural artistic style transfer?
+              </h1>
+
+              <div class="grid vertical-align">
+                  <div class="column">
+                    <img src="static/images/content.jpg" width="300px">
+                  </div>
+
+                  <div class="column" style="width:50px;">
+                    +
+                  </div>
+
+                  <div class="column">
+                    <img src="static/images/style.jpg" width="300px">
+                  </div>
+
+                  <div class="column" style="width:50px;">
+                    =
+                  </div>
+
+                  <div class="column">
+                    <img src="static/images/result.jpg" width="300px">
+                  </div>
+              </div>
+              <div class="aligncenter">
+                <p>Image source: <a href="https://arxiv.org/pdf/1508.06576.pdf">arXiv</a></p>
+              </div>
+            </div>
+            <!-- .end .wrap -->
+          </section>
+
+          <section>
+            <div class="wrap">
+              <h1>
+                What we'll learn today (hopefully)
+              </h1>
+
+              <ol>
+                <li>How is the problem formulated?</li> <!-- Gimana sih caranya kita bisa mendefinisikan permasalahan ini?
+                Pas pertama denger premisnya, ini jadi pertanyaan pertama gue, karena gue gak kebayang aja gitu
+                gimana caranya buat translate art ke matematik. -->
+                <li>What computers have to learn to solve this problem</li> <!-- Setelah tau formulasinya, pertanyaan
+                gue selanjutnya waktu itu adalah, apa sih yang harus dilakukan sama komputer buat menyelesaikan
+                masalah ini? Emang neural networks bisa? Kenapa? -->
+                <li>Code! 💻</li> <!-- Biar makin seru, kita akan liat kode yang bisa kita run sendiri, implementasinya
+                dengan PyTorch -->
+              </ol>
+            </div>
+            <!-- .end .wrap -->
+          </section>
+
+          <section>
+            <div class="wrap">
+              <div class="aligncenter">
+                <h1>
+                  Step 1: Formulate the Problem
+                </h1>
+
+                <iframe src="https://giphy.com/embed/BmmfETghGOPrW" width="480" height="206" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+              </div>
+            </div>
+          </section>
+
+          <section>
+              <div class="wrap">
+                  <h1>
+                    Step 1: Formulate the Problem
+                  </h1>
+  
+                      <div class="grid vertical-align">
+                        <div class="column">
+                          <img src="static/images/content.jpg" width="300px">
+                          <div class="aligncenter"><h4>Content Image</h4></div>
+                        </div>
+
+                        <div class="column" style="width:50px;">
+                          +
+                        </div>
+
+                        <div class="column">
+                          <img src="static/images/style.jpg" width="300px">
+                          <div class="aligncenter"><h4>Style Image</h4></div>
+                        </div>
+
+                        <div class="column" style="width:50px;">
+                          =
+                        </div>
+
+                        <div class="column">
+                          <img src="static/images/result.jpg" width="300px">
+                          <div class="aligncenter"><h4>Generated Image</h4></div>
+                        </div>
+                    </div>
+              </div>
+            </section>
+
+            <section>
+                <div class="wrap">
+                    <h1>
+                      Step 1: Formulate the Problem
+                    </h1>
+    
+                    <div class="grid vertical-align">
+                        <div class="column">
+                          <div class="aligncenter">
+                            <img src="static/images/content.jpg" width="300px">
+                            <h4>Content Image</h4>
+                          </div>
+                        </div>
+
+                        <div class="column">
+                          <h4>What we want</h4>
+                          <p>Buildings, trees, river...</p>
+
+                          <h4>What we don't want</h4>
+                          <p>Exact colors, textures...</p>
+                        </div>
+
+                    </div>
+                  </div>
+              </section>
+          
+              <section>
+                <div class="wrap">
+                    <h1>
+                      Step 1: Formulate the Problem
+                    </h1>
+    
+                    <div class="grid vertical-align">
+                        <div class="column">
+                          <div class="aligncenter">
+                            <img src="static/images/style.jpg" width="300px">
+                            <h4>Style Image</h4>
+                          </div>
+                        </div>
+
+                        <div class="column">
+                          <h4>What we want</h4>
+                          <p>Colors (lots of blue? Some hint of yellow?), textures (the famous Van Gogh thick brush strokes)...</p>
+
+                          <h4>What we don't want</h4>
+                          <p>Objects in the painting (mountains, houses)</p>
+                        </div>
+
+                    </div>
+                  </div>
+              </section>
+
+          <section>
+            <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+           
+            <div class="wrap">
+              <h1>
+                Step 1: Formulate the Problem
+              </h1>
+
+
+              <div class="grid vertical-align">
+                  <div class="column">
+                    <div class="aligncenter">
+                      <img src="static/images/result.jpg" width="300px">
+                      <h4>Result</h4>
+                    </div>
+                  </div>
+
+                  <div class="column">
+                      <h4>What we want</h4>
+                      <p>A new picture which content is closest to our Content Image <b>and</b> which style is closest
+                      to our Style Image</p>
+                  </div>
+
+                  <!-- Jadi, gambar baru yang secara konten dia mirip sama gambar gedung ini, tapi
+                  secara style dia mirip sama Starry Night.-->
+              </div>
+            </div>
+          </section>
+
+          <section>
+              <div class="wrap">
+                <h1>
+                  Step 1: Formulate the Problem
+                </h1>
+  
+  
+                <div class="grid vertical-align">
+  
+                    <div class="column">
+                        <h4>How to measure "close"</h4>
+                        <p>
+                          Euclidean distance!
+                        </p>                        
+                    </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div class="wrap">
+                <h1>
+                  Step 1: Formulate the Problem
+                </h1>
+  
+  
+                <div class="grid vertical-align">
+                    <div class="column">
+                      <div class="aligncenter">
+                        <iframe src="https://giphy.com/embed/xT0xeGWDzEfcsd8QzC" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                        <h2>This is an optimization problem!!!</h2>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+                <div class="wrap">
+                  <h1>
+                    Step 1: Formulate the Problem
+                  </h1>
+    
+    
+                  <div class="grid vertical-align">
+                      
+
+                  <div class="column">
+                      <div class="aligncenter">
+                        <img src="static/images/whitenoise.png" width="300px">
+                        <h4>Init: some random white noise image</h4>
+                      </div>
+                    </div>
+
+                    <div class="column" style="font-size:50px; width:20px;">
+                        <div class="aligncenter">
+                          &rightarrow;
+                        </div>
+                      </div>
+
+                    <div class="column">
+                      <div class="aligncenter">
+                        <img src="static/images/result.jpg" width="300px">
+                        <h4>Result</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+
+
+            <section>
+                <div class="wrap">
+                  <h1>
+                    Step 1: Formulate the Problem
+                  </h1>
+    
+    
+                  <div class="grid vertical-align">
+                      <div class="column">
+                        <div class="aligncenter">
+                          <img src="static/images/result.jpg" width="300px">
+                          <h4>Result</h4>
+                        </div>
+                      </div>
+    
+                      <div class="column">
+                          <h4>... but I have more questions. How can the computer even?!?!?!?</h4>
+                          <p>
+                            We now know what to do, but how can the computer accomplish all these things?
+                          </p>
+
+                          <p>
+                            What does the computer need to do?
+                            How does the computer know which one is the content?
+                            How does the computer learn which one is the style? 
+                            <b>I HAZ SO MANY QUESTIONS.</b>
+                          </p>
+                      </div>
+                  </div>
+                </div>
+              </section>
+
+          <section>
+            <div class="wrap">
+              <div class="aligncenter">
+                <h1>
+                  Step 2: What computers have to learn &amp; how
+                </h1>
+
+                <!-- Ini termasuk melihat konten, melihat style, sampai menghitung sampai dapet gambar
+                yang terbaik by definition-->
+
+                <iframe src="https://giphy.com/embed/8dYmJ6Buo3lYY" width="480" height="352" frameBorder="0"></iframe>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="wrap">
+              <h1>
+                A (very) crash course on neural networks
+              </h1>
+
+              <div class="grid vertical-align">
+                <div class="aligncenter" width="500px">
+                  <img src="static/images/neural-networks.jpeg"></img>
+                  <p><a href="https://towardsdatascience.com/machine-learning-fundamentals-ii-neural-networks-f1e7b2cb3eef">Source</a></p>
+                </div>
+              </div>
+            </div>
+
+              <!-- Inputnya adalah gambar,
+                Hidden layers to be simply put are the characteristics of the image, 
+                output is the tag -->
+
+
+              <!-- Neural networks banyak kegunaannya, yang kita sering denger sih buat classification.
+              Let's say gue pengen tau, misalnya ini gambar apa sih? Alpukat? Apel? Dll.
+              Kita bakal ngajarin neural networks dulu, dari sekian banyak gambar.  -->
+
+              <!-- Dia bakal belajar, oh kalau buahnya ada duri2nya gini, kayanya ini duren deh. Kecil
+              kemungkinannya kalo dia apel. Nah, buat tau "duri2", dll dia harus "ngeliat" kan. Dia 
+              "ngeliat" dengan cara nge ekstrak fitur2, entah itu garis2 yang ngebentuk, warna, dll.
+              Ketika dia udh bisa ngeekstrak fitur2 itu, dia baru bisa nentuin "keknya kecil kemungkinan dia apel"
+              . Setelah keluar nih hasil probabilitynya, Nah akhirnya diklasifikasiin deh kalo dia duren. -->
+            </div>
+          </section>
+
+          <section>
+              <div class="wrap">
+                <h1>
+                  A (very) crash course on neural networks
+                </h1>
+  
+                <div class="grid vertical-align">
+                    <div class="column">
+                      <div class="aligncenter">
+                        <img src="static/images/whatcomputersees.jpg"></img>
+                        <p>Source: <a href="https://becominghuman.ai/building-an-image-classifier-using-deep-learning-in-python-totally-from-a-beginners-perspective-be8dbaf22dd8">Becoming Human</a></p>
+                      </div>
+                    </div>
+  
+                    <div class="column">
+                      <ul>
+                        <li>For images, conventional neural networks is <b>computationally expensive</b> 
+                          (a 30x30 image still needs 900 inputs!)</li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+  
+  
+                <!-- Neural networks banyak kegunaannya, yang kita sering denger sih buat classification.
+                Let's say gue pengen tau, misalnya ini gambar apa sih? Alpukat? Apel? Dll.
+                Kita bakal ngajarin neural networks dulu, dari sekian banyak gambar.  -->
+  
+                <!-- Dia bakal belajar, oh kalau buahnya ada duri2nya gini, kayanya ini duren deh. Kecil
+                kemungkinannya kalo dia apel. Nah, buat tau "duri2", dll dia harus "ngeliat" kan. Dia 
+                "ngeliat" dengan cara nge ekstrak fitur2, entah itu garis2 yang ngebentuk, warna, dll.
+                Ketika dia udh bisa ngeekstrak fitur2 itu, dia baru bisa nentuin "keknya kecil kemungkinan dia apel"
+                . Setelah keluar nih hasil probabilitynya, Nah akhirnya diklasifikasiin deh kalo dia duren. -->
+              </div>
+            </section>
+
+          <section>
+            <div class="wrap">
+              <h1>
+                A (very) crash course on convolutional neural networks
+              </h1>
+
+              <div class="grid vertical-align">
+                <div class="column">
+                  <img src="static/images/convolution.gif" width="300px">
+                  <p>Source: <a href="http://deeplearning.stanford.edu/wiki/index.php/Feature_extraction_using_convolution">deeplearning.stanford.edu</a></p>
+                </div>
+
+                <div class="column">
+                  <img src="static/images/edge.jpg" width="300px">
+                  <p>Source: <a href="http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/">WildML</a></p>
+                </div>
+
+                <div class="column">
+                  <img src="static/images/edgekernel.png" width="200px">
+                </div>
+              </div>
+
+              <!-- Sliding window = kernel -->
+              <!-- Use a 3×3 filter, multiply its values element-wise with the original matrix, then sum them up-->
+            </div>
+          </section>
+
+          <section>
+            <div class="wrap">
+              <h1>
+                A (very) crash course on convolutional neural networks
+              </h1>
+
+              <div class="aligncenter">
+                <img src="static/images/cnn.jpg" width="800px">
+                <p>Source: <a href="https://www.mathworks.com/discovery/convolutional-neural-network.html">MathWorks</a></p>
+              </div>
+
+              <!-- we use convolutions over the input layer to compute the output. 
+                During the training phase, a CNN automatically learns the values of its filters 
+                based on the task you want to perform. For example, in Image Classification a CNN may learn to detect edges from raw pixels in the first layer, then use the edges to detect simple shapes in the second layer, and then use these shapes to deter higher-level features, such as facial shapes in higher layers. 
+                The last layer is then a classifier that uses these high-level features.-->
+
+              <!-- https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/ -->
+            </div>
+          </section>
+
+          <section>
+              <div class="wrap">
+                <h1>
+                  A (very) crash course on convolutional neural networks
+                </h1>
+  
+                <div class="aligncenter">
+                  <img src="static/images/cnn-details.png" width="600px">
+                  <p>Source: <a href="http://www.deeplearningbook.org">Deep Learning Book</a></p>
+                </div>
+              </div>
+            </section>
+
+          <section>
+            <div class="wrap">
+              <h1>
+                VGG
+              </h1>
+
+              <ul>
+                <li>One kind of ConvNet architecture</li>  <!-- Arsitektur convnet itu sendiri ada banyak, karena banyak variasi misalnya jumlah layer,
+                  dll. yang bisa kita gunakan atau kombinasikan. -->
+                <li>Winner of the 2014 ImageNet challenge</li> <!-- Nah biasanya aristektur ini suka dilomba-lombain
+                  di dataset yang sama, buat liat mana yang performanya paling bagus. -->
+                <li>Used in this paper to <b>extract content and style from the input images</b></li> <!--  to extract content and style representations from images-->
+                <li><a href="http://www.robots.ox.ac.uk/~VGG/research/very_deep/">Find out more</a></li>
+              </ul>
+              
+             
+            </div>
+          </section>
+
+          <section>
+            <div class="wrap">
+              <h1>
+                How can computers see the content?
+              </h1>
+
+              <ul>
+                <li>The <b>higher layers</b> detect the more higher-level features</li>
+                <li>... therefore are good layers to extract our content!</li>
+                <li>We'll lose the exact pixel information, but it's OK (in fact, we don't need 'em)</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <div class="wrap">
+              <h1>
+                How close is our generated image to our <b>content image</b>?
+              </h1>
+
+              <div class="aligncenter">
+                <img src="static/images/content-loss.png" width="300px" />
+              </div>
+
+              <br />
+
+              <p>
+              We calculate the <b>Euclidean distance</b> between the corresponding feature map of our content
+              image and feature map of our generated image.
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <div class="wrap">
+              <h1>
+                How close is our generated image to our <b>style image</b>?
+              </h1>
+
+              <div class="aligncenter">
+                  <img src="static/images/style-loss.png" width="300px" />
+                </div>
+  
+              <br />
+
+              <p>
+                It's not as straightforward, but it's OK!
+              </p>
+
+              <p>
+                The Euclidean distance still comes in handy, but instead of calculating the distance between 
+                <b>feature maps</b>, we'll be calculating the distance between the <b>Gram matrices of a feature
+                map</b>.
+              </p>
+            </div>
+          </section>
+          
+          <section>
+              <div class="wrap">
+                <h1>
+                  Gram matrices-a-what?
+                </h1>
+  
+                <p>
+                  <b>Refresher:</b> Gram matrix = a matrix multiplied by its transpose
+                </p>
+
+                <p>We'll be looking at the <b>correlations</b> between feature responses in an image. In each layer,
+                  we multiply all feature maps point-wise.
+                </p> <!-- What feature tends to go together -->
+
+                <p>Another way to think of it: the <b>spatial information of our image is distributed</b>, because every column is multiplied with
+                  every row in the matrix.
+                </p>
+              </div>
+            </section>
+          
+            <section>
+                <div class="wrap">
+                  <h1>
+                    Gram matrices-a-what?
+                  </h1>
+
+                  <div class="aligncenter">
+                      <img src="static/images/rgb.png" width="200px" />
+                    </div>
+    
+                  <div class="aligncenter">
+                      <img src="static/images/correlations.png" width="500px" />
+                      <p>Source: <a href="https://www.datasciencecentral.com/profiles/blogs/deep-learning-amp-art-neural-style-transfer-an-implementation">Data Science Central</a></p>
+                    </div>
+                 
+                </div>
+              </section>
+
+          <section>
+            <div class="wrap">
+              <h1>
+                Wrapping everything up
+              </h1>
+
+              <div class="aligncenter">
+                <img src="static/images/total-loss.png" />
+              </div>
+
+              <br />
+
+              <p>
+                We can adjust the parameters, depending on our preference (more style? More content?)
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+           
+            <div class="wrap">
+              <h1>
+                Now what?
+              </h1>
+
+              <div class="aligncenter">
+                  <img src="static/images/thatsit.gif" />
+                  <p>Source: <a href="https://shafeentejani.github.io/2016-12-27/style-transfer/">From Bits to Brains</a></p>
+              </div>
+              <br />
+              <p>
+                We need to do some <b>optimization</b> to minimize the loss iteratively.
+                This will give some kind of direction for our initial random image to improve
+                towards a generated image with minimum loss.
+              </p>
+
+              <p>
+                The paper uses an optimization algorithm called Limited-memory BFGS (L-BFGS).
+              </p>
+
+              <!-- Gradients basically ngasih tau, lo hrs kemana sih? Jadi ya ga bego2 amat lah,
+              ada arahnya, jarak antara style+content loss --> 
+            </div>
+          </section>
+
+          <section>
+            <div class="wrap">
+              <div class="aligncenter">
+                <h1>
+                  Step 3: Code 💻
+                </h1>
+
+                <!-- We'll be using PyTorch, and this code is Gatys' code.-->
+              </div>
+            </div>
+          </section>
+
+          <section>
+              <div class="wrap">
+                <div class="aligncenter">
+                  <h1>
+                    Is that all?
+                  </h1>
+
+                  No! Check these out:
+
+                  <h4><a href="https://arxiv.org/abs/1603.08155">Real-time style transfer!</a></h4>
+                  <h4><a href="https://arxiv.org/abs/1604.08610">Style transfer for videos!</a></h4>
+  
+                  <!-- We'll be using PyTorch, and this code is Gatys' code.-->
+                </div>
+              </div>
+            </section>
+
+          <section class="bg-black aligncenter">
+              <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+              
+              <div class="wrap fadeInUp">
+                <h1>
+                  That's it. 🎉 Thanks! 
+                </h1>
+              </div>
+              <!-- .end .wrap -->
+          </section>
+    
+
+      </article>
+    </main>
+    <!--main-->
+
+    <!-- Required -->
+    <script src="static/js/webslides.js"></script>
+
+    <!-- Autoslide 5 seconds. If you don't want autoslide, remove: {autoslide: 5000} -->
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+
+  </body>
+</html>
