@@ -16,8 +16,8 @@
   what: talk
   where: "CS UI Dev Meetup #2"
   when: "April 2018"
-  slides:
-  code:
+  slides: http://galuh.me/csuidevmeetup/slides
+  code: https://nbviewer.jupyter.org/github/galuhsahid/galuhsahid.github.io/blob/master/csuidevmeetup/Neural%20Style%20Transfer.ipynb
   video:
   status: "past"
 
