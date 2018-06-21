@@ -5,11 +5,12 @@
   status: "upcoming"
   website: "http://scotlandjs.com"
 
-- title: "Building Data-Driven Web Apps with Flask"
+- title: "Building a Data-Driven Web App that Everyone Can Use"
   what: talk
-  where: "PyCon APAC 2018"
+  where: "PyCon APAC 2018, Singapore"
   when: "June 2018"
-  status: "upcoming"
+  slides: https://speakerdeck.com/galuhsahid/building-a-data-driven-web-app-that-everyone-can-use
+  status: "past"
   website: "http://pycon.sg"
 
 - title: "Demistifying Neural Artistic Style Transfer"
