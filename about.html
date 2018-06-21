@@ -12,7 +12,7 @@ title: About
     </h3>
     
     <p class="f4 lh-copy measure">
-        I'm currently working as a data engineer in Midtrans. Three of my favorite things are <b>data</b>, <b>tech</b>, &amp; <b>design</b>.
+        I currently work as a data engineer in Midtrans. Three of my favorite things are <b>data</b>, <b>tech</b>, &amp; <b>design</b>.
     </p>
     
     <p class="f5 lh-copy measure-wide">
@@ -67,8 +67,10 @@ title: About
                         <span><a href="{{ item.code }}">Code</a></span>
                     </div>
                 {% endif %}
+
                 {% if item.what == "paper" %}
                     <div class="mt1">{{ item.author }}</div>
+                    <div class="mt1"><span class="mr2"><a href="{{ item.link }}">Paper</a></span></div>
                 {% endif %}
             </div>
         {% endif %}
