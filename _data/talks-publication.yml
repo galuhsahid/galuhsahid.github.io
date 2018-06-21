@@ -10,6 +10,7 @@
   where: "PyCon APAC 2018, Singapore"
   when: "June 2018"
   slides: https://speakerdeck.com/galuhsahid/building-a-data-driven-web-app-that-everyone-can-use
+  code: http://github.com/galuhsahid/campaign-success-predictor
   status: "past"
   website: "http://pycon.sg"
 
