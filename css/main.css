@@ -128,7 +128,8 @@ a:hover {
   padding: 0 .2em; }
 
 .post pre code {
-  border: none; }
+  border: none; 
+  overflow: scroll; }
 
 /* terminal */
 .post pre.terminal {
@@ -507,6 +508,10 @@ h6 {
   color: #FFAFBD;
   background-color: #333;
   padding: 3px; }
+
+pre {
+  overflow: scroll;
+}
 
 /*****************************************************************************/
 /*

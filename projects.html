@@ -10,11 +10,10 @@ title: Projects
     <div class="cf ph3 ph5-ns pv5">
         {% for project_hash in site.data.projects %}
             {% assign project = project_hash[1] %}
-            <div class="mt5">
                 <div class="mt4 fn fl-ns w-30-ns pr4-ns">
-                    <span class="f6 link br1 ba ph2 pv1 mb2 dib black fr bw2 b">{{ project.category }}</span>
+                    <div class="f6 br1 ba ph2 pv1 mb2 dib black b mt2">{{ project.category }}</div>
                     {% for item in project.stack %}
-                        <span class="f6 link br1 ba ph2 pv1 mb2 dib fr ma1 darkish-blue">{{ item.name }}</span> 
+                        <div class="f6 link br1 ba ph2 pv1 mb2 dib ma1 darkish-blue mt2">{{ item.name }}</div> 
                     {% endfor %}
                 </div>
 
@@ -22,11 +21,10 @@ title: Projects
                     <h2 class="f3 lh-title fw9 mb3 mt0 pt3 bt bw2 calisto">
                         <a class="db pinkish-red link" href="{{project.url}}">{{ project.name }}</a>
                     </h2>
-                    <p class="f5 lh-copy measure">
+                    <p class="f5 fw5 lh-copy measure">
                         {{ project.description }}
                     </p>
                 </div>
-            </div>
         {% endfor %}
     </div>
 </div>
