@@ -10,3 +10,6 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
   math_engine: mathjax
+collections:
+  rust-notes:
+    output: true
