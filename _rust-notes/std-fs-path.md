@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: note
 title: "std::fs and std::path"
 ---
 
