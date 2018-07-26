@@ -2,7 +2,9 @@
   what: talk
   where: "ScotlandJS 2018"
   when: "July 2018"
-  status: "upcoming"
+  status: "past"
+  slides: https://speakerdeck.com/galuhsahid/building-command-line-tools-and-dashboards-with-javascript
+  code: https://github.com/galuhsahid/scotlandjs2018
   website: "http://scotlandjs.com"
 
 - title: "Building a Data-Driven Web App that Everyone Can Use"
