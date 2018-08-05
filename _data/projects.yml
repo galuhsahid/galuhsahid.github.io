@@ -1,0 +1,69 @@
+- name: Indonesian Word Embedding
+  code: http://github.com/galuhsahid/indonesian-word-embedding
+  demo: http://indonesian-word-embedding.herokuapp.com
+  category: Development
+  stack:
+    - name: Node.js
+    - name: Vue.js
+    - name: Flask
+  description: Indonesian word embedding demo. Currently serving a model pre-trained Word2vec model from Wikipedia texts using the CBOW training algorithm.
+
+- name: Quotey
+  code: http://github.com/galuhsahid/quotey
+  category: Development
+  stack:
+    - name: Node.js
+  description: Quotey is a simple command line tool that displays a random quote from your custom collection or WikiQuote on shell startup. Grace your terminal with your favorite quotes!
+
+- name: Social Project Donation Estimator
+  demo: http://pyconid-demo.herokuapp.com
+  category: Data Science
+  stack:
+    - name: Python
+    - name: R
+  description: Social Project Campaign Success Estimator will help you find out the statistics of your campaign and whether you will reach your donation target.
+
+- name: Kapitalisasi Judul
+  code: https://github.com/galuhsahid/kapitalisasi-judul
+  category: Development
+  stack:
+    - name: Node.js
+  description: A CLI tool to automatically capitalize titles in Indonesian.
+
+- name: Find Coordinate Points
+  code: https://github.com/galuhsahid/find-coordinate-points
+  category: Development
+  stack:
+    - name: JavaScript
+  description: A quick tool to collect northwest and southeast corner coordinates of a rectangle that covers a particular area on the map. I initially built it for myself, because I need to collect these coordinates to be used with the S2 Geometry Library. You might find another use of this, who knows!
+
+- name: Language Identification with Machine Learning
+  code: https://github.com/galuhsahid/language-identification-ml
+  category: Machine Learning
+  stack:
+    - name: Python
+    - name: Weka
+  description: Document language identification with machine learning. The languages involved for classification are Indonesian, English, French, and Spanish. After several experiments with different classification methods, I managed to reach accuracy of 92.449% using Bayesian network classifier with F-measure value of 0.908 using 10-fold cross validation.
+
+- name: Sudoku Solver
+  code: https://github.com/galuhsahid/sudoku-solver
+  category: Artificial Intelligence
+  stack:
+    - name: Java
+  description: Implementation of the DPLL and WalkSAT algorithm to solve sudoku puzzles with Java and the <a href="https://github.com/aimacode/aima-java">aima-java</a> library. The implementation of sudoku as a SAT problem references to <a href="https://pdfs.semanticscholar.org/3d74/f5201b30772620015b8e13f4da68ea559dfe.pdf">this paper</a>.
+
+- name: Aime—a CLI for Twitter likes
+  code: http://github.com/galuhsahid/aime
+  category: Development
+  stack:
+    - name: Node.js
+    - name: MongoDB
+  description: Aime is a command line tool that lets you search and manage your Twitter likes. You can organize your liked tweets into categories, mark a tweet as read/unread, and search your liked tweets by query, user, read/unread, or category. All from the comfort of your terminal.
+
+- name: Customer Service Expert Chatbot
+  code: https://gitlab.com/PPL2017csui/PPLB4
+  category: Development
+  stack:
+    - name: Ruby on Rails
+  description: Mr. Alfred is a customer service expert Slack chatbot. By using Mr. Alfred Slack chatbot, users can easily navigate through a company's FAQ and Support Documentation using our Slack chatbot.
+

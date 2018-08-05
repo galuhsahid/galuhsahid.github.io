@@ -1,0 +1,30 @@
+.figure {
+    margin: 2rem 3rem;
+}
+
+.figure-image {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.figcaption {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    position: relative;
+}
+
+.figcaption::before {
+    content: '';
+    border-top: 1px solid $sec-brand-color;
+    left: 0;
+    position: absolute;
+    width: 10%;
+}
+
+.figcaption__text {
+    display: block;
+    max-width: 80%;
+    padding-top: 2rem;
+}

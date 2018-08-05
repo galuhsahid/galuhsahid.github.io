@@ -1,9 +1,11 @@
-.DS_Store
 _site
+.idea
+node_modules
+.DS_Store
 .sass-cache
 .npm-debug.log
 Gemfile.lock
 node_modules
-.idea
 gulpfile.js
 package.json
+package-lock.json

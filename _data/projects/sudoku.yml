@@ -1,6 +1,0 @@
-name: Sudoku Solver
-url: https://github.com/galuhsahid/sudoku-solver
-category: Artificial Intelligence
-stack:
-  - name: Java
-description: Implementation of the DPLL and WalkSAT algorithm to solve sudoku puzzles with Java and the <a href="https://github.com/aimacode/aima-java">aima-java</a> library. The implementation of sudoku as a SAT problem references to <a href="https://pdfs.semanticscholar.org/3d74/f5201b30772620015b8e13f4da68ea559dfe.pdf">this paper</a>.

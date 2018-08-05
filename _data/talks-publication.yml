@@ -1,44 +1,54 @@
 - title: "Building Command-Line Tools and Dashboards with JavaScript"
   what: talk
   where: "ScotlandJS 2018"
+  location: "Edinburgh, Scotland"
   when: "July 2018"
-  status: "past"
   slides: https://speakerdeck.com/galuhsahid/building-command-line-tools-and-dashboards-with-javascript
   code: https://github.com/galuhsahid/scotlandjs2018
+  video:
+  status: "past"
   website: "http://scotlandjs.com"
 
 - title: "Building a Data-Driven Web App that Everyone Can Use"
   what: talk
-  where: "PyCon APAC 2018, Singapore"
+  where: "PyCon APAC 2018"
+  location: "Singapore"
   when: "June 2018"
   slides: https://speakerdeck.com/galuhsahid/building-a-data-driven-web-app-that-everyone-can-use
   code: http://github.com/galuhsahid/campaign-success-predictor
+  video:
   status: "past"
   website: "http://pycon.sg"
 
 - title: "Demistifying Neural Artistic Style Transfer"
   what: talk
   where: "CS UI Dev Meetup #2"
+  location: "Depok, Indonesia"
   when: "April 2018"
   slides: http://galuh.me/csuidevmeetup/slides
   code: https://nbviewer.jupyter.org/github/galuhsahid/galuhsahid.github.io/blob/master/csuidevmeetup/Neural%20Style%20Transfer.ipynb
   video:
   status: "past"
+  website: "https://www.facebook.com/groups/154570601553683/"
 
 - title: "Building Data-Driven Web Apps with Flask"
   what: talk
   where: "PyCon Indonesia 2017"
+  location: "Surabaya, Indonesia"
   when: "December 2017"
   slides: http://galuh.me/pyconid2017
   code: http://github.com/galuhsahid/pyconid2017
   video: 
   status: "past"
+  website: http://pycon.id
 
 - title: "Estimating the Collected Funding Amount of the Social Projects in a Crowdfunding Platform"
   what: paper
   where: "2017 International Conference on Advanced Computer Science and Information Systems (ICACSIS)"
+  location: "Jakarta, Indonesia"
   when: "October 2017"
   author: Galuh Tunggadewi Sahid, Ivana Putri, Intan Sari Septiana, and Rahmad Mahendra
   slides: 
-  link: https://ieeexplore.ieee.org/document/8355046/
+  paper: https://ieeexplore.ieee.org/document/8355046/
   status: "past"
+  website: "http://icacsis.cs.ui.ac.id/front/"

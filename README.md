@@ -9,8 +9,7 @@ To make the website happen, I utilized the following tools:
 
 - [**Jekyll**](http://jekyllrb.org), a static site generator.
 - [**jekyll-gulp-sass-browser-sync**](https://github.com/shakyShane/jekyll-gulp-sass-browser-sync), which already setups Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync for you. Makes life easier, trust me. 👌
-- [**Tachyons.io**](http://tachyons.io), to speed up development &amp; also performance ✌️
 - [**SASS**](http://sass-lang.com)
+- [**sass-boilerplate**](https://github.com/HugoGiraudel/sass-boilerplate)
 - [**kramdown**](https://kramdown.gettalong.org/index.html)
 - [**MathJax**](www.mathjax.org/), to display fancy Math equations.
-

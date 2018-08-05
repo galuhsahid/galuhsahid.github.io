@@ -1,6 +1,0 @@
-name: Quotey
-url: http://github.com/galuhsahid/quotey
-category: Development
-stack:
-  - name: Node.js
-description: Quotey is a simple command line tool that displays a random quote from your custom collection or WikiQuote on shell startup. Grace your terminal with your favorite quotes, poems, or passages!

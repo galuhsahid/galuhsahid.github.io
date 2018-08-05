@@ -1,0 +1,132 @@
+.list {
+    margin-left: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 8rem;
+
+    @include tablet {
+        margin-bottom: 10rem;
+    }
+
+
+    @include phone {
+        margin-bottom: 12rem;
+    }
+}
+
+.list__item {
+    border-top: 3px solid;
+    padding-bottom: 40px;
+    float: left;
+    width: 100%;
+
+    @include tablet {
+        margin-bottom: 3rem;
+    }
+
+
+    @include phone {
+        margin-bottom: 2rem;
+    }
+}
+
+.list__blog-title {
+    display: inline-block;
+    margin-top: 15px;
+    font: bold 125% / 1.4 $heading-font-stack;
+}
+
+.list__title {
+    display: block;
+    margin-top: 15px;
+    font: bold 125% / 1.4 $heading-font-stack;
+}
+
+.list__description {
+    display: block;
+}
+
+.list__details {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+    .list__sub-item {
+        float: left;
+        margin-right: 20px;
+        list-style-type: none;
+        padding: 0;
+
+        .list__location:before {
+            font-family: $font-awesome;
+            content: "\f0ac";
+            font-weight: 900;
+            margin-right: 5px;
+        }
+    }
+
+    .list__demo:before {
+        font-family: $font-awesome;
+        content: "\f109";
+        font-weight: 900;
+        margin-right: 5px;
+    }
+
+    .list__code:before {
+        font-family: $font-awesome;
+        content: "\f121";
+        font-weight: 900;
+        margin-right: 5px;
+    }
+
+    .list__slides:before {
+        font-family: $font-awesome;
+        content: "\f1c4";
+        font-weight: 900;
+        margin-right: 5px;
+    }
+
+    .list__paper:before {
+        font-family: $font-awesome;
+        content: "\f15b";
+        font-weight: 900;
+        margin-right: 5px;
+    }
+
+    .list__authors:before {
+        font-family: $font-awesome;
+        content: "\f303";
+        font-weight: 900;
+        margin-right: 5px;
+    }
+}
+
+.list__tags {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+
+    .list__sub-item {
+        float: left;
+        margin-right: 20px;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .list__category {
+        background-color: $sec-brand-color;
+        color: $background-color;
+        padding: 5px;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+
+    .list__stack {
+        border: $sec-brand-color 1px solid;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 5rem;
+        margin-right: 5px;
+    }
+}

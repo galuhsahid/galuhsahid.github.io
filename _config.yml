@@ -1,15 +1,5 @@
 name: Galuh Sahid
-canonical: http://galuh.me
-highlighter: rouge
-exclude: ["node_modules", "gulpfile.js", "package.json"]
 markdown: kramdown
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-  math_engine: mathjax
-collections:
-  rust-notes:
-    output: true
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+permalink: /:title/

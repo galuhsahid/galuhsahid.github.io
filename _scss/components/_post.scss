@@ -1,0 +1,70 @@
+// POST
+// Format everything that goes in the Post page.
+
+.post {
+    max-width: 800px;
+    float: left;
+    padding: 5px;
+
+    @include desktop {
+        margin-left: 100px;
+    }
+
+
+    @include tablet {
+        margin-left: 50px;
+    }
+
+
+    @include phone {
+        margin-left: 20px;
+    }
+}
+
+.post__date {
+    display: block;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.post__masthead {
+    width: 100%;
+    background-color: $background-color;
+}
+
+.post__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: $heading-font-stack;
+    font-weight: 900;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 5rem;
+    color: $brand-color;
+
+    @include desktop {
+        font-size: 5rem;
+    }
+
+
+    @include tablet {
+        font-size: 3rem;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+        padding-left: 2rem;
+    }
+
+
+    @include phone {
+        font-size: 2rem;
+        padding-top: 5rem;
+        padding-bottom: 7rem;
+        padding-left: 1rem;
+    }
+}
+
+.post a {
+    @include link-underline($background-color, $text-color, $text-color);
+}

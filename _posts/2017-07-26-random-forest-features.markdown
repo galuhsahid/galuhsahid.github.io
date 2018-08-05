@@ -172,7 +172,12 @@ imp_coef.plot(kind = "barh")
 plt.title("Feature Contributions in Random Forest Model")
 ```
 
-![feature importances ti]({{ site.url }}/assets/images/random_forest_feature_importance_ti.png)
+<figure class="figure">
+    <img class="figure-image" src="/images/posts/random-forest/feature-importance-ti.png" alt="A picture of a chart that shows the features of a random forest model ordered by its feature contribution.">
+    <figcaption class="figcaption">
+        <span class="figcaption__text">An example of a random forest model ordered by each of its feature contribution, calculated using TreeInterpreter.</span>
+    </figcaption>
+</figure>
 
 [^1]: This calls for another post or at least a GitHub repo. The code is still a huge mess &amp; long, comprehensive explanations might be in order. I just haven't got around to it yet, so watch this space!
 [^2]: [Understanding Random Forests &mdash; From Theory to Practice](https://arxiv.org/pdf/1407.7502.pdf).

@@ -2,27 +2,36 @@
 layout: post
 title: "Notes on \"A Neural Algorithm of Artistic Style\""
 tags: [paper]
+featured-img: /images/posts/neural-artistic/las_meninas_velazquez.png
 ---
+
+<blockquote><em>UPDATE:</em> I gave a talk on this topic at CS UI Dev Meetup #2, titled "Demistifying Neural Artistic Style Transfer". Slides are <a href="http://galuh.me/csuidevmeetup/slides">here!</a></blockquote>
 
 I haven't read any paper in a while and I want to get into the habit of taking notes of them. So I thought I'd start with a paper that I actually really like. I love paintings (and art in general) so this makes it feel less like a chore (it doesn't feel like one at all!). Plus this reminds me of the Image Processing class that I took which I really enjoyed!
 
 The paper that I'll be discussing today is ["A Neural Algorithm of Artistic Style"](https://arxiv.org/pdf/1508.06576) by Gatys et al. 
 
-<figure>
-<img src="{{ site.url }}/assets/images/neural-artistic/examples.png">
-<figcaption>The Neckarfront in Tübingen "painted" in the manner of various paintings</figcaption>
+<figure class="figure">
+    <img class="figure-image" src="/images/posts/neural-artistic/examples.png" alt="A picture of The Neckarfront in Tübingen 'painted' in the manner of various paintings.">
+    <figcaption class="figcaption">
+        <span class="figcaption__text">The Neckarfront in Tübingen 'painted' in the manner of various painting.</span>
+    </figcaption>
 </figure>
 
 The main idea here is what makes fine art/artistic paintings what they are is "the interplay between the 'content' and the 'style' of the image". I instantly thought of the painting Las Meninas, which was originally painted by Velázquez but was recreated several times by Picasso. They did paint the same "content" (same furniture, same people, Infanta Margarita...), but each of the painting has a different style which makes each of them a unique piece and thus gives different impression to its observers.
 
-<figure>
-<img src="{{ site.url }}/assets/images/neural-artistic/las_meninas_velazquez.png">
-<figcaption>Velázquez's Las Meninas</figcaption>
+<figure class="figure">
+    <img class="figure-image" src="/images/posts/neural-artistic/las_meninas_velazquez.png" alt="A picture of the painting Las Meninas by Velázquez.">
+    <figcaption class="figcaption">
+        <span class="figcaption__text">Velázquez's Las Meninas.</span>
+    </figcaption>
 </figure>
 
-<figure>
-<img src="{{ site.url }}/assets/images/neural-artistic/las_meninas_picasso.png">
-<figcaption>Picasso's version of Las Meninas</figcaption>
+<figure class="figure">
+    <img class="figure-image" src="/images/posts/neural-artistic/las_meninas_picasso.png" alt="A picture of the painting Las Meninas by Picasso.">
+    <figcaption class="figcaption">
+        <span class="figcaption__text">Picasso's Las Meninas.</span>
+    </figcaption>
 </figure>
 
 Up until the paper was written, there was no algorithm that could explain how it works or how to approach this problem. It all seems very abstract. The paper introduces the idea to derive artistic images by separating and recombining content and style of images using neural representations. 
@@ -44,16 +53,20 @@ We use a feature space[^1] designed to capture texture information! Where is thi
 
 I did write that the feature space is present in every layer. Why does it have to be in every layer!? You may choose to define it locally by using only a few of the lower layers, if that tickles your fancy.  However, you'll end up with an image that looks like this:
 
-<figure>
-<img src="{{ site.url }}/assets/images/neural-artistic/style_subset.png">
-<figcaption>The result when we define style only in a subset of the lower layers</figcaption>
+<figure class="figure">
+    <img class="figure-image" src="/images/posts/neural-artistic/style_subset.png" alt="The results when we define style only in a subset of the lower layers.">
+    <figcaption class="figcaption">
+        <span class="figcaption__text">The results when we define style only in a subset of the lower layers.</span>
+    </figcaption>
 </figure>
 
 Compare this to the output image which feature space exists in every layer, giving a smoother, more visually appealing image:
 
-<figure>
-<img src="{{ site.url }}/assets/images/neural-artistic/style_all.png">
-<figcaption>The result when we define style in all layers, including the higher layers</figcaption>
+<figure class="figure">
+    <img class="figure-image" src="/images/posts/neural-artistic/style_all.png" alt="The results when we define style in all layers, including the higher layers.">
+    <figcaption class="figcaption">
+        <span class="figcaption__text">The results when we define style in all layers, including the higher layers.</span>
+    </figcaption>
 </figure>
 
 ## All right, anything else?
@@ -74,9 +87,11 @@ It's time for the nitty-gritty details!
 
 [VGG-Network](http://www.robots.ox.ac.uk/~vgg/research/very_deep/) is a network architecture developed by Oxford's  Visual Geometry Group (VGG), hence the name. It was placed first in localization task during the ImageNet ILSVRC-2014 and second in classification task. 
 
-<figure>
-<img src="{{ site.url }}/assets/images/neural-artistic/localization.png">
-<figcaption>Classification and localization. Source: https://leonardoaraujosantos.gitbooks.io/artificial-inteligence</figcaption>
+<figure class="figure">
+    <img class="figure-image" src="/images/posts/neural-artistic/localization.png" alt="A picture that illustrates classification and localization, using kittens and puppies.">
+    <figcaption class="figcaption">
+        <span class="figcaption__text">Classification and localization. <a href="https://leonardoaraujosantos.gitbooks.io/artificial-inteligence">Source</a></span>.
+    </figcaption>
 </figure>
 
 The details of the VGG-Network architecture can be seen [here](https://ethereon.github.io/netscope/#/gist/3785162f95cd2d5fee77).

@@ -1,7 +1,0 @@
-name: Aime—a CLI for Twitter likes
-url: http://github.com/galuhsahid/aime
-category: Development
-stack:
-  - name: Node.js
-  - name: MongoDB
-description: Aime is a command line tool that lets you search and manage your Twitter likes. You can organize your liked tweets into categories, mark a tweet as read/unread, and search your liked tweets by query, user, read/unread, or category. All from the comfort of your terminal.

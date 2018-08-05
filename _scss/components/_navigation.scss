@@ -1,0 +1,170 @@
+.wrapper-nav {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-right: 2rem;
+
+    @include desktop {
+        padding-left: 5rem;
+    }
+
+
+    @include tablet {
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+
+
+    @include phone {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.site-nav {
+    display: block;
+    float: right;
+}
+
+.site-nav--inverse {
+    display: block;
+    float: right;
+}
+
+.site-nav--inverse a {
+    color: #FFF;
+}
+
+.site-nav__home-link {
+    display: block;
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.site-nav__open {
+    float: right;
+    padding-top: 6px;
+
+    &:before {
+        content: "↓";
+        margin-right: 6px;
+        color: $sec-brand-color;
+    }
+
+    @include desktop {
+        display: none;
+    }
+}
+
+.site-nav__target {
+    position: fixed;
+    top: 0;
+    left: 0;
+    float: right;
+}
+
+.site-nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    -webkit-transform: translateY(-100%); /* [1] */
+    -moz-transform: translateY(-100%); /* [1] */
+    -ms-transform: translateY(-100%); /* [1] */
+    -o-transform: translateY(-100%); /* [1] */
+    transform: translateY(-100%); /* [1] */
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    will-change: transform;
+    background-color: $brand-color;
+
+    .site-nav__target:target + & {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+
+    @include desktop {
+        position: relative;
+        float: left;
+        background-color: transparent;
+        overflow: visible;
+        backdrop-filter: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+        margin-left: 5rem;
+    }
+}
+
+.site-nav__item {
+    padding: 0 .5em;
+
+    @include desktop {
+        display: inline-block;
+    }
+
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.site-nav__item--close {
+    float: right;
+
+    @include desktop {
+        display: none;
+    }
+}
+
+.site-nav__close {
+    padding: 6px;
+    text-align: right;
+
+    &:before {
+        content: "↑";
+        line-height: 12px;
+        margin-right: 6px;
+        color: $sec-brand-color;
+    }
+}
+
+.site-nav__link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.site-nav__link:after {
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: -1px;
+    content: "";
+    display: none;
+    height: 2px;
+    background: RGBA(58, 109, 255, 1);
+}
+
+.site-nav__link:focus:after, .site-nav__link:hover:after {
+    display: block;
+}

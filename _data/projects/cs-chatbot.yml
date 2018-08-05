@@ -1,6 +1,0 @@
-name: Customer Service Expert Chatbot
-url: https://gitlab.com/PPL2017csui/PPLB4
-category: Development
-stack:
-  - name: Ruby on Rails
-description: Mr. Alfred is a customer service expert Slack chatbot. By using Mr. Alfred Slack chatbot, users can easily navigate through a company's FAQ and Support Documentation using our Slack chatbot.

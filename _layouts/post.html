@@ -1,41 +1,16 @@
 ---
 layout: default
 ---
-<article 
-    class="pl2 pb5 mtn7"
-    style="background:#FFF1EE;" 
-    >
-    <header class="vh-100 bg-light-pink dt w-100">
-        {% if page.image.feature %}
-            <div 
-            style="background:url({{ page.image.feature }}) no-repeat center right; background-size: cover;" 
-            class="dtc v-mid cover ph3 ph4-m ph5-l">
-                <h6 class="f6 mt7 mb2 dib bg-white pa2">&mdash; {{ page.date | date_to_string }}</h6>
-                <br />
-                <h6 class="f6 mb2 dib bg-white pa2">
-                    {% for category in page.tags %}
-                        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-                        {% unless forloop.last %},{% endunless %}
-                    {% endfor %}
-                </h6>
-                <h1 class="f2 f-subheadline-l measure white lh-title fw9 mt2 pv3 calisto">{{ page.title }}</h1>
-        {% else %}
-            <div 
-            style="background:#FFF1EE; no-repeat center right;background-size: cover;" 
-            class="dtc v-mid cover ph3 ph4-m ph5-l">
-                <h6 class="f6 mt7 mb2 dib">&mdash; {{ page.date | date_to_string }}</h6>
-                <br />
-                <h6 class="f6 mb2 dib">
-                    {% for category in page.tags %}
-                        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-                        {% unless forloop.last %},{% endunless %}
-                    {% endfor %}
-                </h6>
-                <h1 class="f2 f-subheadline-l measure lh-title fw9 mt2 pv3 calisto pinkish-red">{{ page.title }}</h1>
-        {% endif %}
-            </div>
-    </header>
-    <div class="avenir pa4 ph7-l mw9-l f5 fw5 center">
-        {{ content }}
-    </div>
-</article>
+
+{% include header.html %}
+<div class="post__masthead" {% if page.featured-img %}style='background: linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, .5)), 50% url("{{ page.featured-img }}"); background-size: cover;' {% endif %}>
+        <h2 class="post__title">{{ page.title }}</h2>
+</div>
+
+<div class="post">
+    <p class="post__date">— {{ page.date | date_to_string }}</p>
+    {{ content }}
+</div>
+
+
+{% include footer.html %}

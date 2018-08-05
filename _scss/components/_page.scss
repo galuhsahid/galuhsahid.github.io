@@ -1,0 +1,14 @@
+.page {
+    max-width: 800px;
+    float: left;
+    padding: 5px;
+}
+
+.page__title:before {
+    content: "—";
+    margin-right: 6px;
+}
+.page__title {
+    color: #000;
+    margin-top: 5rem;
+}

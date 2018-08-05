@@ -1,0 +1,108 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+/// Make a context based selector a little more friendly
+/// @author Hugo Giraudel
+/// @param {String} $context
+@mixin when-inside($context) {
+  #{$context} & {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: #{map-get($breakpoints, medium) - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{map-get($breakpoints, medium)}) and (max-width: #{map-get($breakpoints, large) - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{map-get($breakpoints, large)}) {
+    @content;
+  }
+}
+
+@mixin text-underline-crop($background) {
+  text-shadow:  .03em 0 $background, 
+                -.03em 0 $background,
+                0 .03em $background,
+                0 -.03em $background,
+                .06em 0 $background,
+                -.06em 0 $background,
+                .09em 0 $background,
+                -.09em 0 $background,
+                .12em 0 $background,
+                -.12em 0 $background,
+                .15em 0 $background,
+                -.15em 0 $background;
+}
+
+@mixin text-background($color-bg, $color-text) {
+  background-image: linear-gradient($color-text, $color-text);
+  background-size: 1px 1px;
+  background-repeat: repeat-x;
+  background-position:  0% 95%;
+}
+
+@mixin text-selection($selection) {
+  &::selection {
+      @include text-underline-crop($selection);
+  
+      background: $selection;
+  }
+
+  &::-moz-selection {
+      @include text-underline-crop($selection);
+  
+      background: $selection;
+  }
+}
+
+@mixin link-underline($background, $text, $selection){
+  @include text-underline-crop($background);
+  @include text-background($background, $text);
+  @include text-selection($selection);
+
+  color: $text;
+  text-decoration: none;
+
+  *,
+  *:after,
+  &:after,
+  *:before,
+  &:before {
+      text-shadow: none;
+  }
+
+  &:visited {
+      color: $text;
+  }
+}

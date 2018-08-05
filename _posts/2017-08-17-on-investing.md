@@ -14,11 +14,16 @@ There are plenty of reasons why, but here are the reasons that stick with me the
 - **Inflation**. Inflation is what happens when prices for goods and services rise, &amp; when it happens, while your income will be adjusted according to inflation, the savings that you have aren't going to adjust itself. Therefore, inflation is going to eat your money if you let your money sit around doing nothing.
 - **These graphs, courtesty of [Business Insider](http://www.businessinsider.com/amazing-power-of-compound-interest-2014-7/?IR=T)**:
 
-![JP Morgan](http://static1.businessinsider.com/image/53ac715469beddc1432ad277-1160-870/chart-jp-morgan-retirement-1.jpg)
+<figure class="figure">
+    <img class="figure-image" src="/images/posts/investing/retirement.jpg" alt="A picture of a chart that shows how compounding impacts the amount of savings after a long term.">
+    
+    <img class="figure-image" src="/images/posts/investing/saving.png" alt="A picture of a chart with two lines: the first line illustrates a person who starts investing at 35, while the second line illustrates a person who starts investing at 25. By the age they're 60, the first person only has $200.000 while the second one has $400.000.">
 
-![BI](http://static6.businessinsider.com/image/53ac754b69bedda3512ad279-796-597/saving-at-25-vs-saving-at-35-continued-saving-prettier-1.png)
-
-![BI](http://static3.businessinsider.com/image/53ac75e3ecad0409062ad277-791-593/monthly-savings-chart-new-1.png)
+    <img class="figure-image" src="/images/posts/investing/how-much-retirement.png" alt="A bar chart that illustrates how much you need to save per month, as you age, to reach $1M at retirement (with 6% return rate).">
+    <figcaption class="figcaption">
+        <span class="figcaption__text">Thanks to compounding, the earlier you start investing, the greater the impact is to the amount of your savings.</span>
+    </figcaption>
+</figure>
 
 This is all made possible with the power of compunded interest, which you can read all about [here](https://bolasalju.com/edukasi/compound-interest/)! The nice idea is that, by starting early, even when you're not investing much, you're going to be able to reach the same amount of money [as someone who is starting way later than you](http://www.investopedia.com/university/beginner/beginner2.asp)--yes, even when they're investing a much larger amount than your initial investment.
 
@@ -29,24 +34,21 @@ Here’s a quick roundup on the investments I use:
 ## Mutual Fund
 **What is a mutual fund?**
 
-What is a <span class="tooltip">mutual fund<span class="tooltiptext">reksa dana</span>
-</span>? A mutual fund is a vehicle for pooling public funds for investment in a portfolio of securities managed by a fund manager[^1]. Instead of investing your money directly yourself by buying stocks on your own, for example, you instead let a fund manager take care of that for you. This is very convenient when a) you don't have much money to start with, since sometimes you need a bigger amount of money to start buying stocks directly; b) you don't really have the time and/or expertise to do all this on your own[^2]. Both of these reasons are true in my case&mdash;I don't have much capital to begin with, I don't have time to trade stocks all day, &amp; I don't have the sufficient knowledge to do all this on my own. So mutual fund it is.
+What is a mutual fund? A **mutual fund** is a vehicle for pooling public funds for investment in a portfolio of securities managed by a fund manager[^1]. Instead of investing your money directly yourself by buying stocks on your own, for example, you instead let a fund manager take care of that for you. This is very convenient when a) you don't have much money to start with, since sometimes you need a bigger amount of money to start buying stocks directly; b) you don't really have the time and/or expertise to do all this on your own[^2]. Both of these reasons are true in my case&mdash;I don't have much capital to begin with, I don't have time to trade stocks all day, &amp; I don't have the sufficient knowledge to do all this on my own. So mutual fund it is.
 
 **What mutual fund do you use and why?**
 
-This was actually from a long time ago, but I set up my mutual fund through Bank Mandiri, using Ashmore Dana Progresif Nusantara. The type of mutual funds I chose is called **<span class="tooltip">equity fund<span class="tooltiptext">reksadana saham</span>
-</span>**, which is a type of mutual fund that invests at least 80% of its portfolio in stocks (also called equities). It lets you to start investing with Rp100.000,-/month, so it’s quite affordable.
+This was actually from a long time ago, but I set up my mutual fund through Bank Mandiri, using Ashmore Dana Progresif Nusantara. The type of mutual funds I chose is called **equity fund**, which is a type of mutual fund that invests at least 80% of its portfolio in stocks (also called equities). It lets you to start investing with Rp100.000,-/month, so it’s quite affordable.
 
 **Equity fund? Are there other types mutual fund aside of equity fund?**
 
-Aside of equity fund, there are other types of mutual fund such as **<span class="tooltip">fixed income mutual fund<span class="tooltiptext">reksa dana pendapatan tetap</span>
-</span>** and **<span class="tooltip">balanced fund<span class="tooltiptext">reksa dana campuran</span></span>**. What are the differences? You can read about them [here](http://www.bankmandiri.co.id/english/article/312380304425.asp?article_id=312380304425), but to put it simply, they're different in terms of how they invest their portfolio. For example, balanced fund invests in a mix of equities, fixed income instruments, &amp; money market instruments instead of only equities. 
+Aside of equity fund, there are other types of mutual fund such as **fixed income mutual fund** and **balanced fund**. What are the differences? You can read about them [here](http://www.bankmandiri.co.id/english/article/312380304425.asp?article_id=312380304425), but to put it simply, they're different in terms of how they invest their portfolio. For example, balanced fund invests in a mix of equities, fixed income instruments, &amp; money market instruments instead of only equities. 
 
 Now, these different types of mutual funds come with different risks. Money market mutual fund, for example, tends to have less risks than equity fund because they invest in low-risk vehicles such as certificates of deposit. So to understand the risks, you have to first understand how they invest their portfolio. 
 
 One thing that you have to remember is this: **high risk, high return**. The higher the risks of the investment, the higher the return will be. Choosing low risk mutual funds might not yield a much different result than, say, deposits. But of course, this doesn't mean that you get to be reckless in order to gain more return! You have to understand the risks first &amp; choose the one that suits both your situation &amp; expectation of the return you will get.
 
-To find out more about each type of mutual funds and the risks that come with each of them, you guys can read [this article](http://ekonomi.kompas.com/read/2016/03/23/145910426/Mengenal.Jenis-Jenis.Reksa.Dana.dan.Kebijakan.Investasinya) which also explains how to choose the right mutual funds for you.
+To find out more about each type of mutual funds and the risks that come with each of them, you can read [this article](http://ekonomi.kompas.com/read/2016/03/23/145910426/Mengenal.Jenis-Jenis.Reksa.Dana.dan.Kebijakan.Investasinya) which also explains how to choose the right mutual funds for you.
 
 **How long do you invest in mutual fund for? Will I get filthy rich in a month?!?!**
 
@@ -54,13 +56,23 @@ This was one of the first questions I asked my mother! I thought I could fund my
 
 This might be a very, very simplified explanation of what's going on, but this is the explanation from my mother that really made me understood why equity fund doesn't work for short-term investments: say that I'm starting to invest in equity fund today for my graduation trip to Machu Picchu[^4], which means that I'm going to get my money in, say, four months. What you need to know about equities is that **they are volatile for a number of reasons**[^5], so it's possible that when I'm getting my money back, the graph looks like this:
 
-![Bad](https://i.imgur.com/qt3rDgf.png)
+<figure class="figure">
+    <img class="figure-image" src="/images/posts/investing/equities-bad.png" alt="A picture of a badly drawn line chart that shows what happens when you invest in equities for short-term. The market is volatile, and there's a large chance you're buying at a high price and have to sell at a low price.">
+    <figcaption class="figcaption">
+        <span class="figcaption__text">The market is volatile, and there's a large chance you're buying at a high price and have to sell at a low price.</span>
+    </figcaption>
+</figure>
 
 ... which is not pretty. :(
 
 Meanwhile, when you're investing long-term, as the market goes up the graph will pretty much look like this:
 
-![Good](https://i.imgur.com/as6bvq4.png)
+<figure class="figure">
+    <img class="figure-image" src="/images/posts/investing/equities-good.png" alt="A picture of a badly drawn line chart that shows what happens when you invest in equities for long-term. The market is volatile, but as time goes on the market goes up, you're more likely to be selling at a higher price.">
+    <figcaption class="figcaption">
+        <span class="figcaption__text">The market is still volatile, but as the market goes up, you're more likely to be selling at a higher price.</span>
+    </figcaption>
+</figure>
 
 As you can see, they're still volatile, but the trend is increasing if you give enough time. [Here's a nice article](https://medium.com/@cgillett/why-the-stock-market-always-goes-up-in-the-long-term-2fd131bc8d12) outlining why the stock market always goes up.
 

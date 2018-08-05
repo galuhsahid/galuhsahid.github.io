@@ -1,0 +1,31 @@
+
+<a href="{{ site.baseurl }}/" class="site-nav__home-link">
+    Galuh Sahid
+</a>
+{% if page.featured-img %}
+<nav class="site-nav--inverse">
+        {% else %}
+        <nav class="site-nav">
+        {% endif %}
+    <a href="#trigger:nav" class="site-nav__open">Menu</a>
+    <a class="site-nav__target" id="trigger:nav"></a>
+    <ul class="site-nav__list">
+        <li class="site-nav__item  site-nav__item--close">
+            <a href="#0" class="site-nav__link site-nav__close">Close</a>
+        </li>
+        <li class="site-nav__item">
+            <a href="/" class="site-nav__link">Home</a>
+        </li>
+        <li class="site-nav__item">
+            <a href="/about/" class="site-nav__link">About</a>
+        </li>
+        <li class="site-nav__item">
+            <a href="/projects/" class="site-nav__link">Projects</a>
+        </li>
+        <li class="site-nav__item">
+            <a href="/sketches/" class="site-nav__link">Sketches</a>
+        </li>
+        <li class="site-nav__item">
+        </li>
+    </ul>
+</nav>
