@@ -9,10 +9,7 @@ Hi there! My name is **Galuh**.
 
 Three of my favorite things are **data, tech, & design**. My passion is making data science and computer science more accessible to people.
 
-Right now I am:
-
-- A data engineer at Midtrans
-- Participating in the [Increasing Rust's Reach](http://reach.rust-lang.org) program. I'm working on [Diesel](http://diesel.rs), a safe, extensible ORM and Query Builder for Rust
+Right now I'm working as a data engineer at Midtrans.
 
 Sometimes I:
 
@@ -25,6 +22,7 @@ Previously I:
 
 - Studied computer science at Universitas Indonesia
 - Co-organized [CompFest](http://compfest.web.id), the biggest student-run IT event in Indonesia. Here's [my write-up of what we do](https://medium.com/tales-of-stepitup/stepitup-the-beginning-514b614064a3), [a bunch of lessons learned](/categories/#stepitup), and [some](https://komunika.tempo.co/read/news/2016/09/26/273807423/magz.tempo.co?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_treasury%3Bjv6f0XbxS6CantEOZLMWqw%3D%3D#.WhY0iUuLn6Y) [publication](https://id.techinasia.com/ide-iot-yang-terpilih-di-iot-academy-compest-8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_treasury%3B%2BZlzFG7iT6KpCYpz3S7plg%3D%3D) covering our work
+- Participated in the [Increasing Rust's Reach](http://reach.rust-lang.org) program. I'm working on [Diesel](http://diesel.rs), a safe, extensible ORM and Query Builder for Rust
 - Did various freelance graphic design, web design, and web development projects
 - Made illustrations for fun
 
