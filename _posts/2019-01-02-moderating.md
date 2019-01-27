@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Things I Learned from Moderating Conference Sessions"
+title:  "Moderating Conference Sessions"
 date:   2019-01-03
 tags: [conference]
 ---
