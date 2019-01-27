@@ -1,9 +1,26 @@
+- name: Bash Prompt Editor
+  code: http://github.com/galuhsahid/bash-prompt-editor
+  demo: http://bash-prompt-editor.herokuapp.com/
+  category: Development
+  stack:
+    - name: Vue.js
+  description: Customizing bash prompt made easy.
+
+- name: Maknyus Ipsum
+  code: http://github.com/galuhsahid/maknyus-ipsum
+  demo: https://maknyus-ipsum.herokuapp.com
+  category: Development
+  stack:
+    - name: Vue.js
+    - name: Flask
+  description: Lorem ipsum but with Indonesian foods.
+
+
 - name: Indonesian Word Embedding
   code: http://github.com/galuhsahid/indonesian-word-embedding
   demo: http://indonesian-word-embedding.herokuapp.com
   category: Development
   stack:
-    - name: Node.js
     - name: Vue.js
     - name: Flask
   description: Indonesian word embedding demo. Currently serving a model pre-trained Word2vec model from Wikipedia texts using the CBOW training algorithm.
