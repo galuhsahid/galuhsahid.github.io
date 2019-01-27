@@ -1,3 +1,14 @@
+- title: "Rust Reach & Contributing to Rust"
+  what: talk
+  where: "MozBelajar: Rust Meetup"
+  location: "Jakarta, Indonesia"
+  when: "September 2018"
+  slides: https://speakerdeck.com/galuhsahid/rust-reach-and-contributing-to-rust
+  code: https://github.com/galuhsahid/scotlandjs2018
+  video:
+  status: "past"
+  website: "https://www.eventbrite.com/e/mozbelajar-rust-meetup-tickets-49522987589#"
+
 - title: "Building Command-Line Tools and Dashboards with JavaScript"
   what: talk
   where: "ScotlandJS 2018"
@@ -5,7 +16,7 @@
   when: "July 2018"
   slides: https://speakerdeck.com/galuhsahid/building-command-line-tools-and-dashboards-with-javascript
   code: https://github.com/galuhsahid/scotlandjs2018
-  video:
+  video: https://www.youtube.com/watch?v=kZwDoMTyMjo
   status: "past"
   website: "http://scotlandjs.com"
 
