@@ -26,7 +26,7 @@ Here are some things I clarified/asked/mentioned to the speakers:
 - How timekeeping works (will there be a stopwatch? Paper signs? Where is the timekeeper?)
 
 ## Etc.
-Sometimes you'll find yourselves in situations where you need to have some fillers, e.g. when waiting for everyone to shuffle inside, etc. Some handful things to say:
+Sometimes you'll find yourselves in situations where you need to have some fillers, e.g. when waiting for everyone to shuffle inside, etc. Some things you can say:
 - What track is this (if it's a multi-track conference) & what to expect from this track. I also repeat this after breaks, because there might be an influx of new people coming in. 
 - Quick reminder/summary of the Code of Conduct. Give link to the CoC.
 - (Before a break) how long the break lasts & when to get back. Sometimes there are last-minute adjustments, & since we can't change printed schedules, moderators/MCs are responsible for announcing those changes. Some conferences have Slack with all the attendees in it, so I guess announcing it there should work too.
