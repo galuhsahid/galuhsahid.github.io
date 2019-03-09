@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Sura");
-@import url("https://fonts.googleapis.com/css?family=Martel+Sans");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -463,7 +463,13 @@ a {
 
 body {
   color: #0C143B;
-  font: normal 100%/1.8 "Martel Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font: normal 100%/1.8 "Inconsolata", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
+h1 {
+  font-family: "Futura", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
+h2 {
+  font-family: "Futura", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 /**
  * Clear inner floats
@@ -759,12 +765,12 @@ a:hover {
 .list__blog-title {
   display: inline-block;
   margin-top: 15px;
-  font: bold 125%/1.4 "Sura", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font: bold 125%/1.4 "Futura", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 .list__title {
   display: block;
   margin-top: 15px;
-  font: bold 125%/1.4 "Sura", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font: bold 125%/1.4 "Futura", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 .list__description {
   display: block; }
@@ -873,7 +879,7 @@ a:hover {
 .post__title {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "Sura", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Futura", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 900;
   padding-top: 10rem;
   padding-bottom: 10rem;

@@ -4,16 +4,15 @@
 
 /// Google Fonts
 @import url("https://fonts.googleapis.com/css?family=Sura");
-
-@import url("https://fonts.googleapis.com/css?family=Martel+Sans");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
 
 /// Regular font family
 /// @type List
-$text-font-stack: "Martel Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$text-font-stack: "Inconsolata", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
 
 /// Heading font family
 /// @type List
-$heading-font-stack: "Sura", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$heading-font-stack: "Futura", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
 
 /// Code (monospace) font family
 /// @type List
