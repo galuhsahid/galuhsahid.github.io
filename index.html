@@ -5,8 +5,10 @@ title: Home
 
 <ul class="list">
     {% for post in site.posts %}
-      <li class="list__item">
-          {{ post.date | date: "%-d.%m.%y" }} &middot; <a class="list__blog-title" href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+      {% unless post.tags contains 'translation' %}
+        <li class="list__item">
+            {{ post.date | date: "%-d.%m.%y" }} &middot; <a class="list__blog-title" href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endunless %}
     {% endfor %}
 </ul>
