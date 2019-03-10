@@ -104,7 +104,7 @@ There was so much to take in during such a short visit. Some of the most memorab
 </figure>
 
 <figure class="figure">
-    <img class="figure-image-small" src="/images/posts/manila/pelican.jpg" alt="A picture of a taxidermied spot-billed pelican inside a box of glass.">
+    <img class="figure-image-small" src="/images/posts/manila/pelican.JPG" alt="A picture of a taxidermied spot-billed pelican inside a box of glass.">
 	<figcaption class="figcaption">
         <span class="figcaption__text">Taxidermied spot-billed pelican.</span>
     </figcaption>
