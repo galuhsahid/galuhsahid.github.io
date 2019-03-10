@@ -409,7 +409,7 @@ html {
   box-sizing: border-box; }
 
 body {
-  background: #fff1ee; }
+  background: white; }
 
 #left {
   background: #2852FF;
@@ -547,6 +547,11 @@ blockquote {
 .figure-image {
   display: block;
   max-width: 100%;
+  margin-bottom: 20px; }
+
+.figure-image-small {
+  display: block;
+  max-width: 70%;
   margin-bottom: 20px; }
 
 .figcaption {
@@ -827,7 +832,7 @@ a:hover {
     padding: 0; }
   .list__tags .list__category {
     background-color: #2852ff;
-    color: #fff1ee;
+    color: white;
     padding: 5px;
     border-radius: 5px;
     margin-right: 5px; }
@@ -874,7 +879,7 @@ a:hover {
 
 .post__masthead {
   width: 100%;
-  background-color: #fff1ee; }
+  background-color: white; }
 
 .post__title {
   margin-top: 0;
@@ -902,7 +907,7 @@ a:hover {
       padding-left: 1rem; } }
 
 .post a {
-  text-shadow: 0.03em 0 #fff1ee, -0.03em 0 #fff1ee, 0 0.03em #fff1ee, 0 -0.03em #fff1ee, 0.06em 0 #fff1ee, -0.06em 0 #fff1ee, 0.09em 0 #fff1ee, -0.09em 0 #fff1ee, 0.12em 0 #fff1ee, -0.12em 0 #fff1ee, 0.15em 0 #fff1ee, -0.15em 0 #fff1ee;
+  text-shadow: 0.03em 0 white, -0.03em 0 white, 0 0.03em white, 0 -0.03em white, 0.06em 0 white, -0.06em 0 white, 0.09em 0 white, -0.09em 0 white, 0.12em 0 white, -0.12em 0 white, 0.15em 0 white, -0.15em 0 white;
   background-image: linear-gradient(#0C143B, #0C143B);
   background-size: 1px 1px;
   background-repeat: repeat-x;
