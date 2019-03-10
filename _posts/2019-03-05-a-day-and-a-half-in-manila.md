@@ -182,11 +182,11 @@ The answer is: the *jeepney*.
 *Jeepneys* are everywhere. I saw one as soon as I exited the airport the day before, because they really are everywhere, & gosh I really wanted to try it. I just wasn't sure if I could do it. *jeepneys* are like Indonesia's very own *angkot*, except their decorations are funkier that *jeepneys* end up becoming a whole cultural phenomenon on itself. They're similar in every other way, though: they have a semi-fixed route, don't have a timetable, & don't have stops. They're so unstructured that the only way to know how to ride them---just like *angkot*---is to ask the locals.
 
 <figure class="figure">
-    <img class="figure-image-small" src="/images/posts/manila/jeepney.jpg" alt="A picture of a jeepney.">
+    <img class="figure-image-small" src="/images/posts/manila/jeepney.JPG" alt="A picture of a jeepney.">
 </figure>
 
 <figure class="figure">
-    <img class="figure-image-small" src="/images/posts/manila/jeepney-2.jpg" alt="A picture of the jeepney driver.">
+    <img class="figure-image-small" src="/images/posts/manila/jeepney-2.JPG" alt="A picture of the jeepney driver.">
 	<figcaption class="figcaption">
         <span class="figcaption__text">Jeepney adventure!</span>
     </figcaption>
