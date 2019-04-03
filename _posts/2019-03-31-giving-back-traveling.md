@@ -198,7 +198,7 @@ Now, how exactly Bambike contributes to the local community? At the end of the t
 
 - **Website**: [https://www.bambike.com/ecotours](https://www.bambike.com/ecotours)
 - **Cost**: PHP 1200 (~$23)
-- **Duration**: 2 hours 30 minutes, starts at 10 AM & 3 PM every day except Saturday
+- **Duration**: 2 hours 30 minutes, starts at 10 AM & 3 PM
 - **How to book**: You can book the tour directly through their website. There are also other tours (I booked the Intramuros Experience one) so be sure to check them out too
  
 # Some notes
