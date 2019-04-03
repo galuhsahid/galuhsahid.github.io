@@ -41,8 +41,7 @@ The *pandesal*, while heavenly, weren't enough for me. Minutes later, my tummy g
 # Day 2
 Yesterday's traffic jams taught me that to make the most of my time, I need to keep Manila's traffic in mind, so I started the day early.
 
-I had my breakfast Kanto Freestyle Breakfast which was within walking distance from where I was staying. The great thing about having everything within walking distance is you have an excuse to wander around the neighborhoods, & mornings are perfect for this. The sun was still hanging low, & everyone was just beginning to start their day- opening up their shops (Indonesia's equivalent of warung), going to work, & gearing up their motorized tricycles.
-Speaking of tricycles, I don't think they exist in Jakarta, but in my mother's hometown they are called *motor becak*. I used to ride this a lot as my uncle drives one, so it was a pleasant surprise to see them ubiquitous in Manila.
+I had my breakfast Kanto Freestyle Breakfast which was within walking distance from where I was staying. The great thing about having everything within walking distance is you have an excuse to wander around the neighborhoods, & mornings are perfect for this. The sun was still hanging low, & everyone was just beginning to start their day---opening up their shops (Indonesia's equivalent of *warung*), going to work, & gearing up their motorized tricycles.
 
 <figure class="figure">
     <img class="figure-image-small" src="/images/posts/manila/morning-stroll-4.JPG" alt="A picture of a road, where a building in particular is painted orange, and two pairs of people are walking holding hands.">
@@ -234,9 +233,9 @@ There are several ways to get around Intramuros. It's actually not really big in
 Honestly, I was overwhelmed regarding where to start. There were so many monuments, parks, & statues to see. This being a historical place, I figured that I would have got so much more value out of my visit if I have a knowledgeable tour guide with me. I opted to go on a tour from Bambike Ecotours. There was just me & one other person, plus our tour guide who is a history major.
 
 <figure class="figure">
-    <img class="figure-image-small" src="/images/posts/manila/intramuros-bayleaf.JPG" alt="A picture of Metro Manila seen from above.">
+    <img class="figure-image-small" src="/images/posts/manila/intramuros-bayleaf.jpg" alt="A picture of Metro Manila seen from above.">
 	<figcaption class="figcaption">
-        <span class="figcaption__text">Treated a 360-degree view of Metro Manila.</span>
+        <span class="figcaption__text">The 360-degree view of Metro Manila was a treat.</span>
     </figcaption>
 </figure>
 
