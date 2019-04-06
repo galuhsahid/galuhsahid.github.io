@@ -91,7 +91,7 @@ He literally invented this technique—he even has a patent for it!—yet he kin
 
 "When did you start creating these?" I asked out of curiosity, expecting probably a double digit number because he looks so effortless in carving lines using his iron pencil as if he's been doing this forever.
 
-I got more than a number, though. He proceeded to tell me how it all started. "I was lost, thinking a lot, drinking too much, smoke too much," he recalled. He had always been an artist, but prior to this he was doing painting with acrylic. He still has some of the work that he did using acrylic on canvas in his workshop.
+I got more than a number, though. He proceeded to tell me how it all started. "I was lost, thinking a lot, drinking too much, smoke too much," he recalled. He had always been an artist, but prior to this he was doing painting with oil paint. He still has some of the work that he did using oil paint on canvas in his workshop.
 
 "One day, I was outside burning some leaves, & I started to notice patterns on the leaves." These patterns, which appeared on the surface of the palm leaves because of the flames, eventually inspired him to create his very own craft. Nowadays, he makes a living from accepting commissions.
 
