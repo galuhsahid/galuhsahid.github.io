@@ -8,7 +8,7 @@
 
 /// Regular font family
 /// @type List
-$text-font-stack: "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$text-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !default;
 
 /// Heading font family
 /// @type List
@@ -25,7 +25,7 @@ $font-awesome: "Font Awesome 5 Free";
 /// Copy text color
 /// @type Color
 //$text-color: rgb(34, 34, 34) !default;
-$text-color: #0C143B;
+$text-color: #222831;
 
 /// Main brand color
 /// @type Color

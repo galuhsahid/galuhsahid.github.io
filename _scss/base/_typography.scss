@@ -1,6 +1,8 @@
 body {
   color: $text-color;
-  font: normal 100%/1.8 $text-font-stack;
+  font: normal calc(110% + 0.1vw) $text-font-stack;
+  line-height: 1.6;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
