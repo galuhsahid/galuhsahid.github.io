@@ -9,7 +9,9 @@ Hi there! My name is **Galuh**.
 
 Three of my favorite things are **data, tech, & design**. My passion is making data science and computer science more accessible to people.
 
-Right now I'm working as a data engineer at GOJEK.
+Right now I:
+- Am working as a data engineer at GOJEK
+- Co-hosting [Kartini Teknologi](https://kartiniteknologi.id), a podcast featuring Indonesian women in tech and [Satu Halaman Lagi](https://instagram.com/satuhalamanlagi), a podcast where my friends & I talk about the book we're reading
 
 Sometimes I:
 
